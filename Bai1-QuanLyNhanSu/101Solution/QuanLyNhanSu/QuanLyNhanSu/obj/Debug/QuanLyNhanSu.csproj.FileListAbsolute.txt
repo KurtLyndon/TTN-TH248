@@ -1,1 +1,10 @@
 C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+G:\ThucTap_Nhom\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+G:\ThucTap_Nhom\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+G:\ThucTap_Nhom\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+G:\ThucTap_Nhom\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+G:\ThucTap_Nhom\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frm_Start.resources
+G:\ThucTap_Nhom\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+G:\ThucTap_Nhom\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+G:\ThucTap_Nhom\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+G:\ThucTap_Nhom\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
