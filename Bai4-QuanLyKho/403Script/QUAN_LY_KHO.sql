@@ -95,7 +95,16 @@ alter table CHITIETPHIEU add constraint PK_CCP primary key (ID_Phieu, ID_HangHoa
 constraint PK_CTP_Ph foreign key (ID_Phieu) references PHIEU(ID_Phieu),
 constraint PK_CTP_HH foreign key (ID_HangHoa) references HANGHOA(ID_HangHoa)
 
+create table DANGNHAP
+(	Username varchar(50) not null,
+	Pass varchar(50)
+)
 
-alter table tblChiTietPM add constraint PK_CTPM primary key (MaSach, MaPhieu),
-constraint FK_CTPM_PM foreign key (MaPhieu) references tblPhieuMuon(MaPhieu),
-constraint FK_CTPM_Sach foreign key (MaSach) references tblQuyenSach(MaSach)
+alter table DANGNHAP add constraint PK_DN primary key (Username)
+insert into DANGNHAP values
+('khuonghoang','hoanglaota'),
+('tuananh','anhle123'),
+('vokhuonglinh','linh123'),
+('quangtruong','truong123'),
+('anhtuan','tuan123'),
+('hongquan','quan123')
