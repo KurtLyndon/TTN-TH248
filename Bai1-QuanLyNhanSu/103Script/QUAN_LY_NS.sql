@@ -44,7 +44,7 @@ create table PhanCong
 (
 	ID_NhanVien varchar(10)not null,
 	ID_DeAn varchar(10)not null,
-	ThoiGian decimal(3,1)null,
+	ThoiGian int null,
 )
 go
 insert into ThanNhan
@@ -159,7 +159,7 @@ create proc AddObject
 	@Gender varchar(3),
 	@Relate varchar(3),
 	@Salary int,
-	@Time decimal(3,1)
+	@Time int
 )
 as
 begin
@@ -183,20 +183,20 @@ go
 create proc DeleteObject
 (
 	@core int,
-	@ID varchar(10),
+	@ID1 varchar(10),
 	@ID2 varchar(10)
 )
 as
 begin
 	if @core=1
-		delete from NhanVien where ID_NhanVien=@ID
+		delete from NhanVien where ID_NhanVien=@ID1
 	else if @core=2
-		delete from ThanNhan where ID_ThanNhan=@ID
+		delete from ThanNhan where ID_ThanNhan=@ID1
 	else if @core=3
-		delete from DeAn where ID_DeAn =@ID
+		delete from DeAn where ID_DeAn =@ID1
 	else if @core=4
-		delete from DonVi where ID_DonVi =@ID
-	else delete from PhanCong where ID_DeAn=@ID and ID_NhanVien=@ID2
+		delete from DonVi where ID_DonVi =@ID1
+	else delete from PhanCong where ID_DeAn=@ID1 and ID_NhanVien=@ID2
 end
 go
 --Cap nhap
@@ -212,7 +212,7 @@ create proc EditObject
 	@Gender varchar(3),
 	@Relate varchar(3),
 	@Salary int,
-	@Time decimal(3,1)
+	@Time int
 )
 as
 begin
