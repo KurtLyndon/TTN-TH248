@@ -35,6 +35,8 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.radF = new System.Windows.Forms.RadioButton();
+            this.radM = new System.Windows.Forms.RadioButton();
             this.textWork = new System.Windows.Forms.TextBox();
             this.textAddress = new System.Windows.Forms.TextBox();
             this.textDoB = new System.Windows.Forms.TextBox();
@@ -60,11 +62,15 @@
             this.radView = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.btnFree = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+            this.panel1.SuspendLayout();
+=======
             this.radF = new System.Windows.Forms.RadioButton();
             this.radM = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pn_Nhanvien.SuspendLayout();
+>>>>>>> origin/master
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -150,6 +156,28 @@
             this.panel3.Size = new System.Drawing.Size(268, 354);
             this.panel3.TabIndex = 16;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // radF
+            // 
+            this.radF.AutoSize = true;
+            this.radF.Location = new System.Drawing.Point(153, 142);
+            this.radF.Name = "radF";
+            this.radF.Size = new System.Drawing.Size(59, 17);
+            this.radF.TabIndex = 32;
+            this.radF.Text = "Female";
+            this.radF.UseVisualStyleBackColor = true;
+            // 
+            // radM
+            // 
+            this.radM.AutoSize = true;
+            this.radM.Checked = true;
+            this.radM.Location = new System.Drawing.Point(99, 142);
+            this.radM.Name = "radM";
+            this.radM.Size = new System.Drawing.Size(48, 17);
+            this.radM.TabIndex = 32;
+            this.radM.TabStop = true;
+            this.radM.Text = "Male";
+            this.radM.UseVisualStyleBackColor = true;
             // 
             // textWork
             // 
@@ -442,6 +470,8 @@
             this.btnFree.UseVisualStyleBackColor = true;
             this.btnFree.Click += new System.EventHandler(this.btnFree_Click);
             // 
+<<<<<<< HEAD
+=======
             // radF
             // 
             this.radF.AutoSize = true;
@@ -483,6 +513,7 @@
             this.pictureBox2.TabIndex = 34;
             this.pictureBox2.TabStop = false;
             // 
+>>>>>>> origin/master
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
