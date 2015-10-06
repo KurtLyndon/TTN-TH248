@@ -238,5 +238,45 @@ namespace QuanLyNhanSu
                 reset();
             }
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textAddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textSalary_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textWork_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textManager_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textDoB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
