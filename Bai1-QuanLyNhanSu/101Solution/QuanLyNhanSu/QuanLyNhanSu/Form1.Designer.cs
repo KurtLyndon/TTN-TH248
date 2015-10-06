@@ -88,6 +88,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_Start";
             this.Text = "Quản Lý Nhân Sự";
+            this.Load += new System.EventHandler(this.frm_Start_Load);
             this.ResumeLayout(false);
 
         }

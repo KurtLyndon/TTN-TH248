@@ -62,15 +62,15 @@
             this.radView = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.btnFree = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-            this.panel1.SuspendLayout();
-=======
-            this.radF = new System.Windows.Forms.RadioButton();
-            this.radM = new System.Windows.Forms.RadioButton();
+
+//            this.panel1.SuspendLayout();
+
+            //this.radF = new System.Windows.Forms.RadioButton();
+            //this.radM = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pn_Nhanvien.SuspendLayout();
->>>>>>> origin/master
+
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -470,8 +470,7 @@
             this.btnFree.UseVisualStyleBackColor = true;
             this.btnFree.Click += new System.EventHandler(this.btnFree_Click);
             // 
-<<<<<<< HEAD
-=======
+
             // radF
             // 
             this.radF.AutoSize = true;
@@ -513,7 +512,7 @@
             this.pictureBox2.TabIndex = 34;
             this.pictureBox2.TabStop = false;
             // 
->>>>>>> origin/master
+
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
