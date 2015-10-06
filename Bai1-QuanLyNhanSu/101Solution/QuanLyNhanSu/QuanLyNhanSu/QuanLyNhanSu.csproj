@@ -91,6 +91,9 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Icons\QLNS.ico" />
+    <Content Include="Images\female symbol.jpg" />
+    <Content Include="Images\male symbol.jpg" />
+    <Content Include="Images\QLNS-Nhanvien.jpg" />
     <Content Include="Images\QLNS.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
