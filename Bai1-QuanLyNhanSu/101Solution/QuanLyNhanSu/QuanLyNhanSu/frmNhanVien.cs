@@ -17,8 +17,18 @@ namespace QuanLyNhanSu
         {
             InitializeComponent();
         }
+
+        private void frmNhanVien_Load(object sender, EventArgs e)
+        {
+            reset();
+            reset3();
+        }
+
         private DataTable table;
+        private DataTable table2;
+        private string IDstring;
         private Connection connector = new Connection();
+
         private bool check(int k)
         {
             if (k == 1)
@@ -58,15 +68,40 @@ namespace QuanLyNhanSu
                 textWork.Focus();
                 return false;
             }
+            int p = 0;
+            for (int i = 0; i < table.Rows.Count; i++)
+            {
+                if (textManager.Text.Trim() != table.Rows[i][0].ToString().Trim())
+                {
+                    p++;
+                    break;
+                }
+            }
+            if (p == 0)
+            {
+                MessageBox.Show("ID manager value must be someone's ID", "O___O", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                textManager.Focus();
+                return false;
+            }
             int b;
             if (int.TryParse(textSalary.Text, out b) == false)
             {
                 MessageBox.Show("This Salary's values is not valid", "O___O", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                textDoB.Focus();
+                textSalary.Focus();
                 return false;
+            }
+            for (int i = 0; i < table2.Rows.Count; i++)
+            {
+                if (textWork.Text.Trim() == table2.Rows[i][1].ToString().Trim())
+                {
+                    MessageBox.Show("Workplace ID's values must be in {" + IDstring + "}", "O___O", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    textWork.Focus();
+                    return false;
+                }
             }
             return true;
         }
+
         private void reset()
         {
             listView1.Items.Clear();
@@ -94,11 +129,16 @@ namespace QuanLyNhanSu
             }
         }
 
-        private void frmNhanVien_Load(object sender, EventArgs e)
+        private void reset3()
         {
-            reset();
+            table2 = new DataTable();
+            table2 = connector.LoadData("4");
+            IDstring = "";
+            foreach (DataRow row in table.Rows)
+            {
+                IDstring = IDstring + row[0].ToString().Trim() + "/";
+            }
         }
-
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listView1.SelectedItems.Count > 0)
@@ -138,7 +178,7 @@ namespace QuanLyNhanSu
                     {
                         textID.ReadOnly = false;
                         textDoB.Text = textName.Text = textID.Text = textManager.Text = textAddress.Text = textSalary.Text = textWork.Text = "";
-                        radF.Checked = radM.Checked = false;
+                        radM.Checked = true;
                     }
                 }
             }
@@ -159,7 +199,7 @@ namespace QuanLyNhanSu
                 if (check(2) == false) return;
                 string gt = "Nu";
                 if (radM.Checked == true) gt = "Nam";
-                connector.InsertUpdateObject("AddObject","1",textID.Text,textWork.Text,textManager.Text,textName.Text,textAddress.Text,textDoB.Text,gt,"",textSalary.Text,"");
+                connector.InsertUpdateObject("EditObject","1",textID.Text,textWork.Text,textManager.Text,textName.Text,textAddress.Text,textDoB.Text,gt,"",textSalary.Text,"");
                 MessageBox.Show("Updating completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             reset();

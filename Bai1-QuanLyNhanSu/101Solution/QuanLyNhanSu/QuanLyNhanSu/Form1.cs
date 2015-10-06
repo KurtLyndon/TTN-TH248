@@ -24,5 +24,29 @@ namespace QuanLyNhanSu
             frm.Close();
             frm.Dispose();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmThanNhan frm = new frmThanNhan();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmDeAn frm = new frmDeAn();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmDonVi frm = new frmDonVi();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
     }
 }

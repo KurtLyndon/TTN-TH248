@@ -1,6 +1,6 @@
 ﻿namespace QuanLyNhanSu
 {
-    partial class frmNhanVien
+    partial class frmDonVi
     {
         /// <summary>
         /// Required designer variable.
@@ -28,27 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
-            this.radF = new System.Windows.Forms.RadioButton();
-            this.radM = new System.Windows.Forms.RadioButton();
-            this.textWork = new System.Windows.Forms.TextBox();
-            this.textAddress = new System.Windows.Forms.TextBox();
-            this.textDoB = new System.Windows.Forms.TextBox();
-            this.textManager = new System.Windows.Forms.TextBox();
-            this.textSalary = new System.Windows.Forms.TextBox();
+            this.textID2 = new System.Windows.Forms.TextBox();
             this.textName = new System.Windows.Forms.TextBox();
             this.textID = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -61,30 +49,18 @@
             this.radView = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.btnFree = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(619, 395);
-            this.panel1.TabIndex = 0;
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.listView1);
-            this.panel2.Location = new System.Drawing.Point(12, 20);
+            this.panel2.Location = new System.Drawing.Point(28, 34);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(243, 224);
-            this.panel2.TabIndex = 17;
+            this.panel2.TabIndex = 23;
             // 
             // listView1
             // 
@@ -106,102 +82,37 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Employee ID";
+            this.columnHeader1.Text = "Unit ID";
             this.columnHeader1.Width = 83;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Employee Name";
+            this.columnHeader2.Text = "Unit Name";
             this.columnHeader2.Width = 155;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.radF);
-            this.panel3.Controls.Add(this.radM);
-            this.panel3.Controls.Add(this.textWork);
-            this.panel3.Controls.Add(this.textAddress);
-            this.panel3.Controls.Add(this.textDoB);
-            this.panel3.Controls.Add(this.textManager);
-            this.panel3.Controls.Add(this.textSalary);
+            this.panel3.Controls.Add(this.textID2);
             this.panel3.Controls.Add(this.textName);
             this.panel3.Controls.Add(this.textID);
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(339, 20);
+            this.panel3.Location = new System.Drawing.Point(355, 34);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(268, 336);
-            this.panel3.TabIndex = 16;
+            this.panel3.Size = new System.Drawing.Size(268, 161);
+            this.panel3.TabIndex = 22;
             // 
-            // radF
+            // textID2
             // 
-            this.radF.AutoSize = true;
-            this.radF.Location = new System.Drawing.Point(153, 142);
-            this.radF.Name = "radF";
-            this.radF.Size = new System.Drawing.Size(59, 17);
-            this.radF.TabIndex = 32;
-            this.radF.Text = "Female";
-            this.radF.UseVisualStyleBackColor = true;
-            // 
-            // radM
-            // 
-            this.radM.AutoSize = true;
-            this.radM.Checked = true;
-            this.radM.Location = new System.Drawing.Point(99, 142);
-            this.radM.Name = "radM";
-            this.radM.Size = new System.Drawing.Size(48, 17);
-            this.radM.TabIndex = 32;
-            this.radM.TabStop = true;
-            this.radM.Text = "Male";
-            this.radM.UseVisualStyleBackColor = true;
-            // 
-            // textWork
-            // 
-            this.textWork.Location = new System.Drawing.Point(99, 233);
-            this.textWork.Name = "textWork";
-            this.textWork.ReadOnly = true;
-            this.textWork.Size = new System.Drawing.Size(102, 20);
-            this.textWork.TabIndex = 31;
-            // 
-            // textAddress
-            // 
-            this.textAddress.Location = new System.Drawing.Point(99, 171);
-            this.textAddress.Name = "textAddress";
-            this.textAddress.ReadOnly = true;
-            this.textAddress.Size = new System.Drawing.Size(102, 20);
-            this.textAddress.TabIndex = 30;
-            // 
-            // textDoB
-            // 
-            this.textDoB.Location = new System.Drawing.Point(99, 109);
-            this.textDoB.Name = "textDoB";
-            this.textDoB.ReadOnly = true;
-            this.textDoB.Size = new System.Drawing.Size(102, 20);
-            this.textDoB.TabIndex = 29;
-            // 
-            // textManager
-            // 
-            this.textManager.Location = new System.Drawing.Point(99, 264);
-            this.textManager.Name = "textManager";
-            this.textManager.ReadOnly = true;
-            this.textManager.Size = new System.Drawing.Size(140, 20);
-            this.textManager.TabIndex = 28;
-            // 
-            // textSalary
-            // 
-            this.textSalary.Location = new System.Drawing.Point(99, 202);
-            this.textSalary.Name = "textSalary";
-            this.textSalary.ReadOnly = true;
-            this.textSalary.Size = new System.Drawing.Size(140, 20);
-            this.textSalary.TabIndex = 27;
+            this.textID2.Location = new System.Drawing.Point(99, 108);
+            this.textID2.Name = "textID2";
+            this.textID2.ReadOnly = true;
+            this.textID2.Size = new System.Drawing.Size(140, 20);
+            this.textID2.TabIndex = 27;
             // 
             // textName
             // 
@@ -219,65 +130,15 @@
             this.textID.Size = new System.Drawing.Size(102, 20);
             this.textID.TabIndex = 24;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Location = new System.Drawing.Point(29, 236);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(61, 15);
-            this.label9.TabIndex = 23;
-            this.label9.Text = "Workplace";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Location = new System.Drawing.Point(29, 174);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 15);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "Address";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Location = new System.Drawing.Point(29, 112);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 15);
-            this.label5.TabIndex = 21;
-            this.label5.Text = "Date of Birth";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Location = new System.Drawing.Point(29, 267);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 15);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Manager";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Location = new System.Drawing.Point(29, 205);
+            this.label8.Location = new System.Drawing.Point(29, 111);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
+            this.label8.Size = new System.Drawing.Size(56, 15);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Salary";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Location = new System.Drawing.Point(29, 142);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 15);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Gender";
+            this.label8.Text = "ID Leader";
             // 
             // label4
             // 
@@ -322,10 +183,10 @@
             this.panel4.Controls.Add(this.radView);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.btnFree);
-            this.panel4.Location = new System.Drawing.Point(12, 274);
+            this.panel4.Location = new System.Drawing.Point(28, 288);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(272, 100);
-            this.panel4.TabIndex = 15;
+            this.panel4.TabIndex = 21;
             // 
             // textSearch
             // 
@@ -410,16 +271,17 @@
             this.btnFree.UseVisualStyleBackColor = true;
             this.btnFree.Click += new System.EventHandler(this.btnFree_Click);
             // 
-            // frmNhanVien
+            // frmDonVi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(619, 395);
-            this.Controls.Add(this.panel1);
-            this.Name = "frmNhanVien";
-            this.Text = "frmNhanVien";
-            this.Load += new System.EventHandler(this.frmNhanVien_Load);
-            this.panel1.ResumeLayout(false);
+            this.ClientSize = new System.Drawing.Size(650, 422);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel4);
+            this.Name = "frmDonVi";
+            this.Text = "frmDonVi";
+            this.Load += new System.EventHandler(this.frmDonVi_Load);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -431,25 +293,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textWork;
-        private System.Windows.Forms.TextBox textAddress;
-        private System.Windows.Forms.TextBox textDoB;
-        private System.Windows.Forms.TextBox textManager;
-        private System.Windows.Forms.TextBox textSalary;
+        private System.Windows.Forms.TextBox textID2;
         private System.Windows.Forms.TextBox textName;
         private System.Windows.Forms.TextBox textID;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -462,8 +314,5 @@
         private System.Windows.Forms.RadioButton radView;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnFree;
-        private System.Windows.Forms.RadioButton radF;
-        private System.Windows.Forms.RadioButton radM;
-
     }
 }
