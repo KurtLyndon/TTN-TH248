@@ -63,10 +63,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnFree = new System.Windows.Forms.Button();
 
-//            this.panel1.SuspendLayout();
-
-            //this.radF = new System.Windows.Forms.RadioButton();
-            //this.radM = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pn_Nhanvien.SuspendLayout();
