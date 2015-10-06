@@ -1,4 +1,5 @@
 ﻿create database QUAN_LY_KHACH_SAN
+use QUAN_LY_KHACH_SAN
 go
 create table KHACHHANG
 (	ID_KhachHang varchar(10) not null, TenKhachHang nvarchar(50), CMND varchar(10), SDT bigint 
@@ -30,7 +31,10 @@ create table QUANLYDODUNG
 create table THANHTOAN
 (	ID_Phong varchar(10) not null, NgayTra date, TongTien bigint 
 )
- 
+ create table DANGNHAP
+(	Username varchar(50) not null,
+	Pass varchar(50)
+)
 go
 insert into KHACHHANG values
 ('KH001',N'Lê Thị Ngọc Anh','174200022','0928182732'),
@@ -140,11 +144,30 @@ insert into CHITIETTHUEPHONG values
 ('Ph007','DV003'),('Ph007','DV006'),('Ph007','DV008'),
 ('Ph008','DV001'),('Ph008','DV002'),('Ph008','DV010')
 
+insert into THANHTOAN values
+('Ph001','9/13/2015',2000000),
+('Ph002','6/21/2015',1500000),
+('Ph003','4/3/2015',1750000),
+('Ph004','1/22/2015',2150000),
+('Ph005','7/12/2015',3000000),
+('Ph006','11/15/2015',7000000),
+('Ph007','4/6/2015',1500000),
+('Ph008','2/13/2015',1500000)
+
+insert into DANGNHAP values
+('khuonghoang','hoanglaota'),
+('tuananh','anhle123'),
+('vokhuonglinh','linh123'),
+('quangtruong','truong123'),
+('anhtuan','tuan123'),
+('hongquan','quan123')
+
 alter table KHACHHANG add constraint PK_KH primary key (ID_KhachHang)
 alter table DODUNG add constraint PK_DD primary key (ID_DoDung)
 alter table DICHVU add constraint PK_DV primary key (ID_DichVu)
 alter table NHANVIEN add constraint PK_NV primary key (ID_NhanVien)
 alter table PHONG add constraint PK_Ph primary key (ID_Phong)
+alter table DANGNHAP add constraint PK_DN primary key (Username)
 
 alter table CHITIETTHUEPHONG add constraint PK_CTTP primary key (ID_Phong, ID_DichVu),
 	constraint PK_CTTP_Ph foreign key(ID_Phong) references PHONG(ID_Phong),
@@ -158,17 +181,3 @@ alter table QUANLYPHONG add constraint PK_QLP primary key (ID_Phong, ID_KhachHan
 	constraint PK_QLP_Ph foreign key (ID_Phong) references PHONG(ID_Phong),
 	constraint PK_QLP_NV foreign key (ID_NhanVien) references NHANVIEN(ID_NhanVien),
 	constraint PK_QLP_KH foreign key (ID_KhachHang) references KHACHHANG(ID_KhachHang)
-
-create table DANGNHAP
-(	Username varchar(50) not null,
-	Pass varchar(50)
-)
-
-alter table DANGNHAP add constraint PK_DN primary key (Username)
-insert into DANGNHAP values
-('khuonghoang','hoanglaota'),
-('tuananh','anhle123'),
-('vokhuonglinh','linh123'),
-('quangtruong','truong123'),
-('anhtuan','tuan123'),
-('hongquan','quan123')
