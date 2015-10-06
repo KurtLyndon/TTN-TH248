@@ -48,5 +48,10 @@ namespace QuanLyNhanSu
             frm.Close();
             frm.Dispose();
         }
+
+        private void frm_Start_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
