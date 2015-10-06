@@ -47,7 +47,7 @@ create table PhanCong
 	ThoiGian int null,
 )
 go
-insert into ThanNhan
+insert into ThanNhan(ID_ThanNhan, ID_NhanVien, TenTN, GioiTinh, NgaySinh, QuanHe)
 values 
 ('TN001','NV001','Than nhan A','Nam','4/3/1950','Cha'),
 ('TN002','NV002','Than nhan B','Nu','2/6/1945','Me'),

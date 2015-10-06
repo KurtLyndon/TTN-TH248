@@ -1,4 +1,5 @@
 ﻿create database QUAN_LY_SIEU_THI
+use QUAN_LY_SIEU_THI
 go
 create table KHACHHANG
 (	ID_KhachHang varchar(10) not null, TenKhachHang nvarchar(50), CMND varchar(10), SDT bigint 
@@ -15,6 +16,10 @@ create table HANGHOA
 )
 create table HOADON
 (	ID_HoaDon varchar(10) not null, ID_NhanVien varchar(10) not null, ID_KhachHang varchar(10) not null, Ngay date
+)
+create table DANGNHAP
+(	Username varchar(50) not null,
+	Pass varchar(50)
 )
 drop table HOADON
  go 
@@ -86,24 +91,6 @@ insert into CHITIETHOADON values
 ('HD009','HH011','2'),
 ('HD010','HH009','1'),('HD010','HH006','3')
 
-alter table KHACHHANG add constraint PK_KH primary key(ID_KhachHang)
-alter table NHANVIEN add constraint PK_NV primary key(ID_NhanVien)
-alter table HANGHOA add constraint PK_HH primary key(ID_HangHoa)
-
-alter table CHITIETHOADON add constraint PK_CTHD primary key (ID_HoaDon, ID_HangHoa)
-alter table CHITIETHOADON add	constraint PK_CTHD_HD foreign key (ID_HoaDon) references HOADON (ID_HoaDon)
-alter table CHITIETHOADON add	constraint PK_CTHD_HH foreign key (ID_HangHoa) references HANGHOA (ID_HangHoa)
-
-alter table HOADON add constraint PK_HD primary key (ID_HoaDon),
-	constraint PK_HD_NV foreign key (ID_NhanVien) references NHANVIEN (ID_NhanVien),
-	constraint PK_HD_KH foreign key (ID_KhachHang) references KHACHHANG(ID_KhachHang)
-
-create table DANGNHAP
-(	Username varchar(50) not null,
-	Pass varchar(50)
-)
-
-alter table DANGNHAP add constraint PK_DN primary key (Username)
 insert into DANGNHAP values
 ('khuonghoang','hoanglaota'),
 ('tuananh','anhle123'),
@@ -111,3 +98,16 @@ insert into DANGNHAP values
 ('quangtruong','truong123'),
 ('anhtuan','tuan123'),
 ('hongquan','quan123')
+
+alter table KHACHHANG add constraint PK_KH primary key(ID_KhachHang)
+alter table NHANVIEN add constraint PK_NV primary key(ID_NhanVien)
+alter table HANGHOA add constraint PK_HH primary key(ID_HangHoa)
+alter table DANGNHAP add constraint PK_DN primary key (Username)
+
+alter table CHITIETHOADON add constraint PK_CTHD primary key (ID_HoaDon, ID_HangHoa)
+alter table CHITIETHOADON add	constraint PK_CTHD_HD foreign key (ID_HoaDon) references HOADON (ID_HoaDon)
+alter table CHITIETHOADON add	constraint PK_CTHD_HH foreign key (ID_HangHoa) references HANGHOA (ID_HangHoa)
+
+alter table HOADON add constraint PK_HD primary key (ID_HoaDon)
+alter table HOADON add	constraint PK_HD_NV foreign key (ID_NhanVien) references NHANVIEN (ID_NhanVien)
+alter table HOADON add	constraint PK_HD_KH foreign key (ID_KhachHang) references KHACHHANG(ID_KhachHang)
