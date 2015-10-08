@@ -56,7 +56,11 @@ namespace QuanLyNhanSu
 
         private void button5_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+            frmHuongDan frm = new frmHuongDan();
+=======
             frmPhanCong frm = new frmPhanCong();
+>>>>>>> KurtLyndon/master
             frm.ShowDialog();
             frm.Close();
             frm.Dispose();

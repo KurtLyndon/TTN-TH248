@@ -33,7 +33,13 @@ C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyN
 C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
 C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
 >>>>>>> origin/master
+<<<<<<< HEAD
+C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmDeAn.resources
+C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmDonVi.resources
+C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmThanNhan.resources
+=======
 E:\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmPhanCong.resources
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+>>>>>>> KurtLyndon/master

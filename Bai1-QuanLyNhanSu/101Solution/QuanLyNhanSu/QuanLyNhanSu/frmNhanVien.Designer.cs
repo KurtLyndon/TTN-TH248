@@ -37,6 +37,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.radF = new System.Windows.Forms.RadioButton();
             this.radM = new System.Windows.Forms.RadioButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textWork = new System.Windows.Forms.TextBox();
             this.textAddress = new System.Windows.Forms.TextBox();
             this.textDoB = new System.Windows.Forms.TextBox();
@@ -62,28 +64,33 @@
             this.radView = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.btnFree = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+=======
 
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+>>>>>>> KurtLyndon/master
             this.pn_Nhanvien.SuspendLayout();
-
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pn_Nhanvien
             // 
             this.pn_Nhanvien.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pn_Nhanvien.Controls.Add(this.pictureBox3);
             this.pn_Nhanvien.Controls.Add(this.panel2);
             this.pn_Nhanvien.Controls.Add(this.panel3);
             this.pn_Nhanvien.Controls.Add(this.panel4);
             this.pn_Nhanvien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pn_Nhanvien.Location = new System.Drawing.Point(0, 0);
             this.pn_Nhanvien.Name = "pn_Nhanvien";
-            this.pn_Nhanvien.Size = new System.Drawing.Size(564, 392);
+            this.pn_Nhanvien.Size = new System.Drawing.Size(564, 513);
             this.pn_Nhanvien.TabIndex = 0;
             // 
             // panel2
@@ -156,24 +163,44 @@
             // radF
             // 
             this.radF.AutoSize = true;
-            this.radF.Location = new System.Drawing.Point(153, 142);
+            this.radF.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radF.Location = new System.Drawing.Point(175, 158);
             this.radF.Name = "radF";
-            this.radF.Size = new System.Drawing.Size(59, 17);
+            this.radF.Size = new System.Drawing.Size(14, 13);
             this.radF.TabIndex = 32;
-            this.radF.Text = "Female";
+            this.radF.TabStop = true;
             this.radF.UseVisualStyleBackColor = true;
             // 
             // radM
             // 
             this.radM.AutoSize = true;
+            this.radM.BackColor = System.Drawing.Color.Transparent;
             this.radM.Checked = true;
-            this.radM.Location = new System.Drawing.Point(99, 142);
+            this.radM.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radM.Location = new System.Drawing.Point(110, 158);
             this.radM.Name = "radM";
-            this.radM.Size = new System.Drawing.Size(48, 17);
+            this.radM.Size = new System.Drawing.Size(14, 13);
             this.radM.TabIndex = 32;
             this.radM.TabStop = true;
-            this.radM.Text = "Male";
-            this.radM.UseVisualStyleBackColor = true;
+            this.radM.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::QuanLyNhanSu.Properties.Resources.female_symbol;
+            this.pictureBox2.Location = new System.Drawing.Point(195, 146);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 31);
+            this.pictureBox2.TabIndex = 34;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QuanLyNhanSu.Properties.Resources.male_symbol;
+            this.pictureBox1.Location = new System.Drawing.Point(130, 146);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 31);
+            this.pictureBox1.TabIndex = 33;
+            this.pictureBox1.TabStop = false;
             // 
             // textWork
             // 
@@ -373,14 +400,14 @@
             this.panel4.Controls.Add(this.radView);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.btnFree);
-            this.panel4.Location = new System.Drawing.Point(12, 250);
+            this.panel4.Location = new System.Drawing.Point(275, 380);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(243, 124);
+            this.panel4.Size = new System.Drawing.Size(268, 124);
             this.panel4.TabIndex = 15;
             // 
             // textSearch
             // 
-            this.textSearch.Location = new System.Drawing.Point(135, 50);
+            this.textSearch.Location = new System.Drawing.Point(155, 56);
             this.textSearch.Name = "textSearch";
             this.textSearch.Size = new System.Drawing.Size(101, 20);
             this.textSearch.TabIndex = 25;
@@ -388,7 +415,7 @@
             // butSearch
             // 
             this.butSearch.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butSearch.Location = new System.Drawing.Point(134, 78);
+            this.butSearch.Location = new System.Drawing.Point(155, 84);
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(102, 30);
             this.butSearch.TabIndex = 5;
@@ -399,7 +426,7 @@
             // butDel
             // 
             this.butDel.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butDel.Location = new System.Drawing.Point(52, 78);
+            this.butDel.Location = new System.Drawing.Point(73, 84);
             this.butDel.Name = "butDel";
             this.butDel.Size = new System.Drawing.Size(77, 30);
             this.butDel.TabIndex = 5;
@@ -410,7 +437,7 @@
             // radAdd
             // 
             this.radAdd.AutoSize = true;
-            this.radAdd.Location = new System.Drawing.Point(2, 65);
+            this.radAdd.Location = new System.Drawing.Point(23, 71);
             this.radAdd.Name = "radAdd";
             this.radAdd.Size = new System.Drawing.Size(44, 17);
             this.radAdd.TabIndex = 4;
@@ -421,7 +448,7 @@
             // radEdit
             // 
             this.radEdit.AutoSize = true;
-            this.radEdit.Location = new System.Drawing.Point(2, 88);
+            this.radEdit.Location = new System.Drawing.Point(23, 94);
             this.radEdit.Name = "radEdit";
             this.radEdit.Size = new System.Drawing.Size(43, 17);
             this.radEdit.TabIndex = 4;
@@ -433,7 +460,7 @@
             // 
             this.radView.AutoSize = true;
             this.radView.Checked = true;
-            this.radView.Location = new System.Drawing.Point(2, 42);
+            this.radView.Location = new System.Drawing.Point(23, 48);
             this.radView.Name = "radView";
             this.radView.Size = new System.Drawing.Size(48, 17);
             this.radView.TabIndex = 2;
@@ -458,7 +485,7 @@
             // 
             this.btnFree.Enabled = false;
             this.btnFree.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFree.Location = new System.Drawing.Point(52, 42);
+            this.btnFree.Location = new System.Drawing.Point(73, 48);
             this.btnFree.Name = "btnFree";
             this.btnFree.Size = new System.Drawing.Size(77, 30);
             this.btnFree.TabIndex = 0;
@@ -466,67 +493,34 @@
             this.btnFree.UseVisualStyleBackColor = true;
             this.btnFree.Click += new System.EventHandler(this.btnFree_Click);
             // 
-
-            // radF
+            // pictureBox3
             // 
-            this.radF.AutoSize = true;
-            this.radF.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radF.Location = new System.Drawing.Point(175, 158);
-            this.radF.Name = "radF";
-            this.radF.Size = new System.Drawing.Size(14, 13);
-            this.radF.TabIndex = 32;
-            this.radF.TabStop = true;
-            this.radF.UseVisualStyleBackColor = true;
+            this.pictureBox3.Image = global::QuanLyNhanSu.Properties.Resources.employee;
+            this.pictureBox3.Location = new System.Drawing.Point(57, 286);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox3.TabIndex = 18;
+            this.pictureBox3.TabStop = false;
             // 
-            // radM
-            // 
-            this.radM.AutoSize = true;
-            this.radM.BackColor = System.Drawing.Color.Transparent;
-            this.radM.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radM.Location = new System.Drawing.Point(110, 158);
-            this.radM.Name = "radM";
-            this.radM.Size = new System.Drawing.Size(14, 13);
-            this.radM.TabIndex = 32;
-            this.radM.TabStop = true;
-            this.radM.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::QuanLyNhanSu.Properties.Resources.male_symbol;
-            this.pictureBox1.Location = new System.Drawing.Point(130, 146);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(25, 31);
-            this.pictureBox1.TabIndex = 33;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::QuanLyNhanSu.Properties.Resources.female_symbol;
-            this.pictureBox2.Location = new System.Drawing.Point(195, 146);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 31);
-            this.pictureBox2.TabIndex = 34;
-            this.pictureBox2.TabStop = false;
-            // 
-
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(564, 392);
+            this.ClientSize = new System.Drawing.Size(564, 513);
             this.Controls.Add(this.pn_Nhanvien);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmNhanVien";
-            this.Text = "Nhân viên";
+            this.Text = "Nhân Viên";
             this.Load += new System.EventHandler(this.frmNhanVien_Load);
             this.pn_Nhanvien.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -568,6 +562,7 @@
         private System.Windows.Forms.RadioButton radM;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
 
     }
 }
