@@ -41,3 +41,4 @@ C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\Qu
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
 >>>>>>> KurtLyndon/master
+C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmPhanCong.resources
