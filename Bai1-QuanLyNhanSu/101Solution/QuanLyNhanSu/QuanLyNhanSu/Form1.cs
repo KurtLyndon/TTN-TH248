@@ -53,5 +53,13 @@ namespace QuanLyNhanSu
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            frmHuongDan frm = new frmHuongDan();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
     }
 }
