@@ -90,6 +90,7 @@
             // 
             // button5
             // 
+<<<<<<< HEAD
             this.button5.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button5.Image = global::QuanLyNhanSu.Properties.Resources.guide;
             this.button5.Location = new System.Drawing.Point(620, 330);
@@ -98,6 +99,13 @@
             this.button5.TabIndex = 3;
             this.button5.Text = "Hướng Dẫn";
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+=======
+            this.button5.Location = new System.Drawing.Point(521, 183);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "PhanCong";
+>>>>>>> KurtLyndon/master
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -106,7 +114,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QuanLyNhanSu.Properties.Resources.QLNS;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(774, 496);
+=======
+            this.ClientSize = new System.Drawing.Size(784, 430);
+>>>>>>> KurtLyndon/master
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

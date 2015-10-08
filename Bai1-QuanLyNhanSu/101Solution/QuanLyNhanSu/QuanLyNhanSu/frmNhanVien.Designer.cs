@@ -64,7 +64,13 @@
             this.radView = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.btnFree = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+=======
+
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+>>>>>>> KurtLyndon/master
             this.pn_Nhanvien.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
