@@ -98,6 +98,9 @@
     <EmbeddedResource Include="frmDonVi.resx">
       <DependentUpon>frmDonVi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmHuongDan.resx">
+      <DependentUpon>frmHuongDan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNhanVien.resx">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,6 +136,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Icons\QLNS.ico" />
+    <Content Include="Images\divide.png" />
     <Content Include="Images\employee.png" />
     <Content Include="Images\family.png" />
     <Content Include="Images\female symbol.jpg" />
