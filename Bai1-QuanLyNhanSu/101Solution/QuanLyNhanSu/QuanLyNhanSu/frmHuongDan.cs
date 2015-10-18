@@ -22,12 +22,12 @@ namespace QuanLyNhanSu
             string str;
             if (treeView1.SelectedNode.Name == "root_GT_GTN")
             {
-                str = @"Huong Dan\Nhom thuc hien.mht";
+                str = Application.StartupPath + "\\Huong Dan\\Nhom thuc hien.mht";
                 webBrowser1.Navigate(str);
             }
             if (treeView1.SelectedNode.Name == "root_GT_GTSP")
             {
-                str = @"Huong Dan\Gioi thieu san pham.mht";
+                str = Application.StartupPath + "\\Huong Dan\\Gioi thieu san pham.mht";
                 webBrowser1.Navigate(str);
             }
         }
