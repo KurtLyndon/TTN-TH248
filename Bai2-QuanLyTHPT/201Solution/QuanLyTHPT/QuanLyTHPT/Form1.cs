@@ -16,5 +16,38 @@ namespace QuanLyTHPT
         {
             InitializeComponent();
         }
+
+        private void frm_Start_Load(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LOPDATA.LOP frclass = new LOPDATA.LOP();
+            frclass.ShowDialog();
+            
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HOCSINHDATA.HOCSINH frstudent = new HOCSINHDATA.HOCSINH();
+            frstudent.ShowDialog();
+            
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GIAOVIENDATA.GIAOVIEN frteacher = new GIAOVIENDATA.GIAOVIEN();
+            frteacher.ShowDialog();
+            this.Close();
+        }
+
+       
     }
 }
