@@ -1,0 +1,14 @@
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\bin\Release\QuanLyNhanSu.exe.config
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\bin\Release\QuanLyNhanSu.exe
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\bin\Release\QuanLyNhanSu.pdb
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.frm_Start.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.frmDeAn.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.frmDonVi.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.frmHuongDan.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.frmNhanVien.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.frmPhanCong.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.frmThanNhan.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.csproj.GenerateResource.Cache
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.exe
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Release\QuanLyNhanSu.pdb
