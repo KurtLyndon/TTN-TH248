@@ -1,4 +1,5 @@
 ﻿create database QUAN_LY_KHO
+use  QUAN_LY_KHO
 go 
 create table HANGHOA
 ( ID_HangHoa varchar(10) not null , TenHangHoa nvarchar(50), Gia bigint, ID_NhaCC varchar(10) not null
@@ -13,7 +14,10 @@ go
 create table PHIEU 
 ( ID_Phieu varchar(10) not null, Ngay date, LoaiPhieu varchar(1) check (LoaiPhieu in ('N','X')) 
 )
-
+create table DANGNHAP
+(	Username varchar(50) not null,
+	Pass varchar(50)
+)
 go
 create table CHITIETPHIEU
 ( ID_Phieu varchar(10) not null, ID_HangHoa varchar(10) not null, GhiChu nvarchar(50)
@@ -86,21 +90,6 @@ insert into CHITIETPHIEU values
 ('Ph007','HH013',N''),
 ('Ph007','HH014',N'')
 
-alter table NHACUNGCAP add constraint PK_NCC primary key (ID_NhaCC)
-alter table PHIEU add constraint PK_PHIEU primary key (ID_Phieu)
-alter table HANGHOA add constraint PK_HH primary key(ID_HangHoa)
-alter table HANGHOA add constraint PK_HH_NCC foreign key (ID_NhaCC) references NHACUNGCAP(ID_NhaCC)
-
-alter table CHITIETPHIEU add constraint PK_CCP primary key (ID_Phieu, ID_HangHoa),
-constraint PK_CTP_Ph foreign key (ID_Phieu) references PHIEU(ID_Phieu),
-constraint PK_CTP_HH foreign key (ID_HangHoa) references HANGHOA(ID_HangHoa)
-
-create table DANGNHAP
-(	Username varchar(50) not null,
-	Pass varchar(50)
-)
-
-alter table DANGNHAP add constraint PK_DN primary key (Username)
 insert into DANGNHAP values
 ('khuonghoang','hoanglaota'),
 ('tuananh','anhle123'),
@@ -108,3 +97,13 @@ insert into DANGNHAP values
 ('quangtruong','truong123'),
 ('anhtuan','tuan123'),
 ('hongquan','quan123')
+
+alter table NHACUNGCAP add constraint PK_NCC primary key (ID_NhaCC)
+alter table PHIEU add constraint PK_PHIEU primary key (ID_Phieu)
+alter table HANGHOA add constraint PK_HH primary key(ID_HangHoa)
+alter table HANGHOA add constraint PK_HH_NCC foreign key (ID_NhaCC) references NHACUNGCAP(ID_NhaCC)
+alter table DANGNHAP add constraint PK_DN primary key (Username)
+
+alter table CHITIETPHIEU add constraint PK_CCP primary key (ID_Phieu, ID_HangHoa),
+constraint PK_CTP_Ph foreign key (ID_Phieu) references PHIEU(ID_Phieu),
+constraint PK_CTP_HH foreign key (ID_HangHoa) references HANGHOA(ID_HangHoa)
