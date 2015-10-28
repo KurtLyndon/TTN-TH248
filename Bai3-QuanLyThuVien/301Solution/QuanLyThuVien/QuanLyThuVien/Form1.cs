@@ -71,6 +71,7 @@ namespace QuanLyThuVien
             {
                 MessageBox.Show("Welcome to QuanLyThuVien project", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 butBanDoc.Enabled = butNXB.Enabled = butPhieuMuon.Enabled = butSach.Enabled = true;
+                butBanDoc.Visible = butNXB.Visible = butPhieuMuon.Visible = butSach.Visible = true;
             }
         }
     }

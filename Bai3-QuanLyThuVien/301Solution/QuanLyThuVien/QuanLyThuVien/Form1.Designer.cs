@@ -49,6 +49,7 @@
             this.butBanDoc.TabIndex = 0;
             this.butBanDoc.Text = "BanDoc";
             this.butBanDoc.UseVisualStyleBackColor = true;
+            this.butBanDoc.Visible = false;
             this.butBanDoc.Click += new System.EventHandler(this.butBanDoc_Click);
             // 
             // butSach
@@ -60,6 +61,7 @@
             this.butSach.TabIndex = 0;
             this.butSach.Text = "Sach";
             this.butSach.UseVisualStyleBackColor = true;
+            this.butSach.Visible = false;
             this.butSach.Click += new System.EventHandler(this.butSach_Click);
             // 
             // butNXB
@@ -71,6 +73,7 @@
             this.butNXB.TabIndex = 0;
             this.butNXB.Text = "NXB TL";
             this.butNXB.UseVisualStyleBackColor = true;
+            this.butNXB.Visible = false;
             this.butNXB.Click += new System.EventHandler(this.butNXB_Click);
             // 
             // butPhieuMuon
@@ -82,6 +85,7 @@
             this.butPhieuMuon.TabIndex = 0;
             this.butPhieuMuon.Text = "PhieuMuon";
             this.butPhieuMuon.UseVisualStyleBackColor = true;
+            this.butPhieuMuon.Visible = false;
             this.butPhieuMuon.Click += new System.EventHandler(this.butPhieuMuon_Click);
             // 
             // butLogIn
