@@ -1,1 +1,17 @@
 C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.BanDoc.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frm_Start.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.NXBTL.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Sach.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
