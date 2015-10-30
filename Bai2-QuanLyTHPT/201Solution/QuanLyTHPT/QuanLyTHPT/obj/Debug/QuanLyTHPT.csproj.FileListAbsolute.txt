@@ -1,1 +1,13 @@
 C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.exe.config
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.exe.config
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.exe
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.pdb
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.csprojResolveAssemblyReference.cache
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.frm_Start.resources
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.Properties.Resources.resources
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.csproj.GenerateResource.Cache
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.exe
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.pdb
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.LOPDATA.LOP.resources
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.HOCSINHDATA.HOCSINH.resources
+D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.GIAOVIENDATA.GIAOVIEN.resources
