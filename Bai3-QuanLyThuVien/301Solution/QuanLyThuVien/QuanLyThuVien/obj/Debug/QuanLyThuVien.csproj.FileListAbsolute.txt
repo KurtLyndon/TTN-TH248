@@ -28,3 +28,6 @@ C:\Users\DELL\Desktop\Bao Cao CN WEB\TTN-TH248\Bai3-QuanLyThuVien\301Solution\Qu
 C:\Users\DELL\Desktop\Bao Cao CN WEB\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
 C:\Users\DELL\Desktop\Bao Cao CN WEB\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Sach.resources
 C:\Users\DELL\Desktop\Bao Cao CN WEB\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\HitMan\Documents\GitHub\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\HitMan\Documents\GitHub\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\HitMan\Documents\GitHub\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
