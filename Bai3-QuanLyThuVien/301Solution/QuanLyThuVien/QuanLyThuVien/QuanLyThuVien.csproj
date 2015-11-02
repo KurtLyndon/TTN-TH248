@@ -117,7 +117,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icons\QLTV.ico" />
+    <Content Include="Images\Book.png" />
+    <Content Include="Images\Book_2.png" />
+    <Content Include="Images\guide.png" />
+    <Content Include="Images\Phieu Muon.png" />
+    <Content Include="Images\Phieu Muon_2.png" />
+    <Content Include="Images\Publisher.png" />
+    <Content Include="Images\Publisher_2.png" />
     <Content Include="Images\QLTV.jpg" />
+    <Content Include="Images\Reader.png" />
+    <Content Include="Images\Reader_2.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
