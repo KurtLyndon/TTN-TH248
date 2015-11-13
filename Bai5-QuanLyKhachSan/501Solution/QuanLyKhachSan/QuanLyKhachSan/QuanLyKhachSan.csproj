@@ -44,16 +44,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDichVu.Designer.cs">
+      <DependentUpon>FormDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDoDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDoDung.Designer.cs">
+      <DependentUpon>FormDoDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKhachHang.Designer.cs">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPhong.Designer.cs">
+      <DependentUpon>FormPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQLDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLDichVu.Designer.cs">
+      <DependentUpon>FormQLDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQLDoDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLDoDung.Designer.cs">
+      <DependentUpon>FormQLDoDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQLPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLPhong.Designer.cs">
+      <DependentUpon>FormQLPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDichVu.resx">
+      <DependentUpon>FormDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDoDung.resx">
+      <DependentUpon>FormDoDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKhachHang.resx">
+      <DependentUpon>FormKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPhong.resx">
+      <DependentUpon>FormPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLDichVu.resx">
+      <DependentUpon>FormQLDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLDoDung.resx">
+      <DependentUpon>FormQLDoDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLPhong.resx">
+      <DependentUpon>FormQLPhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
