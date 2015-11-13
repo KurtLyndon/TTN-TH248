@@ -1,1 +1,17 @@
 C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.frm_Start.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormKhachHang.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormPhong.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormDoDung.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormDichVu.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLDichVu.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLDoDung.resources
+C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLPhong.resources
