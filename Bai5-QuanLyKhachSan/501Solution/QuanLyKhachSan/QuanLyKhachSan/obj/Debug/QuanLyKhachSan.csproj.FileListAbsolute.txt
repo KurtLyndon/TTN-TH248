@@ -15,3 +15,19 @@ C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solu
 C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLDichVu.resources
 C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLDoDung.resources
 C:\Users\DELL\Documents\Visual Studio 2012\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLPhong.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.frm_Start.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormDichVu.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormDoDung.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormKhachHang.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormPhong.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLDichVu.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLDoDung.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLPhong.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
