@@ -11,3 +11,6 @@ D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyT
 D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.LOPDATA.LOP.resources
 D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.HOCSINHDATA.HOCSINH.resources
 D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.GIAOVIENDATA.GIAOVIEN.resources
+C:\Users\HitMan\Documents\GitHub\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.exe.config
+C:\Users\HitMan\Documents\GitHub\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.exe
+C:\Users\HitMan\Documents\GitHub\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.pdb

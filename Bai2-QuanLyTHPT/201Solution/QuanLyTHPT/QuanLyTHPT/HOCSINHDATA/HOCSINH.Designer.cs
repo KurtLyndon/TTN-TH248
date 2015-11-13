@@ -32,6 +32,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HOCSINH));
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.tbx_SEX = new System.Windows.Forms.ComboBox();
             this.labelX7 = new DevComponents.DotNetBar.LabelX();
@@ -61,12 +62,14 @@
             this.rd4 = new DevComponents.DotNetBar.RadialMenuItem();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbx_DATE)).BeginInit();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVHS)).BeginInit();
             this.panelEx2.SuspendLayout();
             this.panelEx3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupPanel1
@@ -74,6 +77,7 @@
             this.groupPanel1.BackColor = System.Drawing.Color.Transparent;
             this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
             this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel1.Controls.Add(this.pictureBox1);
             this.groupPanel1.Controls.Add(this.tbx_SEX);
             this.groupPanel1.Controls.Add(this.labelX7);
             this.groupPanel1.Controls.Add(this.labelX6);
@@ -119,7 +123,7 @@
             // 
             this.groupPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.groupPanel1.TabIndex = 13;
-            this.groupPanel1.Text = "THÔNG TIN SINH VIÊN";
+            this.groupPanel1.Text = "THÔNG TIN HỌC SINH";
             // 
             // tbx_SEX
             // 
@@ -131,7 +135,7 @@
             this.tbx_SEX.Items.AddRange(new object[] {
             "NAM",
             "NU"});
-            this.tbx_SEX.Location = new System.Drawing.Point(383, 136);
+            this.tbx_SEX.Location = new System.Drawing.Point(409, 133);
             this.tbx_SEX.Name = "tbx_SEX";
             this.tbx_SEX.Size = new System.Drawing.Size(141, 24);
             this.tbx_SEX.Sorted = true;
@@ -170,7 +174,7 @@
             // 
             // 
             this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX5.Location = new System.Drawing.Point(302, 23);
+            this.labelX5.Location = new System.Drawing.Point(328, 20);
             this.labelX5.Name = "labelX5";
             this.labelX5.Size = new System.Drawing.Size(75, 23);
             this.labelX5.TabIndex = 24;
@@ -183,7 +187,7 @@
             // 
             // 
             this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Location = new System.Drawing.Point(302, 79);
+            this.labelX4.Location = new System.Drawing.Point(328, 76);
             this.labelX4.Name = "labelX4";
             this.labelX4.Size = new System.Drawing.Size(75, 23);
             this.labelX4.TabIndex = 23;
@@ -196,7 +200,7 @@
             // 
             // 
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(302, 138);
+            this.labelX3.Location = new System.Drawing.Point(328, 135);
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(75, 23);
             this.labelX3.TabIndex = 22;
@@ -283,7 +287,7 @@
             // 
             this.tbx_HOME.Border.Class = "TextBoxBorder";
             this.tbx_HOME.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.tbx_HOME.Location = new System.Drawing.Point(383, 26);
+            this.tbx_HOME.Location = new System.Drawing.Point(409, 23);
             this.tbx_HOME.Name = "tbx_HOME";
             this.tbx_HOME.Size = new System.Drawing.Size(190, 22);
             this.tbx_HOME.TabIndex = 15;
@@ -296,7 +300,7 @@
             this.tbx_CLASSID.Border.Class = "TextBoxBorder";
             this.tbx_CLASSID.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.tbx_CLASSID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.tbx_CLASSID.Location = new System.Drawing.Point(383, 82);
+            this.tbx_CLASSID.Location = new System.Drawing.Point(409, 79);
             this.tbx_CLASSID.Name = "tbx_CLASSID";
             this.tbx_CLASSID.Size = new System.Drawing.Size(129, 22);
             this.tbx_CLASSID.TabIndex = 14;
@@ -351,7 +355,7 @@
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(12)))), ((int)(((byte)(32)))));
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.DGVHS.DefaultCellStyle = dataGridViewCellStyle2;
             this.DGVHS.EnableHeadersVisualStyles = false;
@@ -381,7 +385,7 @@
             // 
             this.btn_ADD.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_ADD.ColorTable = DevComponents.DotNetBar.eButtonColor.Orange;
-            this.btn_ADD.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ADD.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ADD.Location = new System.Drawing.Point(3, 17);
             this.btn_ADD.Name = "btn_ADD";
             this.btn_ADD.Shortcuts.Add(DevComponents.DotNetBar.eShortcut.Ins);
@@ -398,9 +402,9 @@
             this.panelEx2.Controls.Add(this.panelEx3);
             this.panelEx2.Controls.Add(this.groupPanel1);
             this.panelEx2.Controls.Add(this.panelEx1);
-            this.panelEx2.Location = new System.Drawing.Point(0, -18);
+            this.panelEx2.Location = new System.Drawing.Point(0, 0);
             this.panelEx2.Name = "panelEx2";
-            this.panelEx2.Size = new System.Drawing.Size(647, 619);
+            this.panelEx2.Size = new System.Drawing.Size(642, 601);
             this.panelEx2.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.panelEx2.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelEx2.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
@@ -435,7 +439,7 @@
             // 
             this.btn_BACK.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_BACK.ColorTable = DevComponents.DotNetBar.eButtonColor.Orange;
-            this.btn_BACK.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BACK.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_BACK.Location = new System.Drawing.Point(512, 17);
             this.btn_BACK.Name = "btn_BACK";
             this.btn_BACK.Size = new System.Drawing.Size(75, 32);
@@ -448,10 +452,10 @@
             // 
             this.btn_SEARCH.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_SEARCH.ColorTable = DevComponents.DotNetBar.eButtonColor.Orange;
-            this.btn_SEARCH.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_SEARCH.Location = new System.Drawing.Point(386, 17);
+            this.btn_SEARCH.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_SEARCH.Location = new System.Drawing.Point(386, 3);
             this.btn_SEARCH.Name = "btn_SEARCH";
-            this.btn_SEARCH.Size = new System.Drawing.Size(75, 32);
+            this.btn_SEARCH.Size = new System.Drawing.Size(75, 46);
             this.btn_SEARCH.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btn_SEARCH.TabIndex = 22;
             this.btn_SEARCH.Text = "TÌM KIẾM";
@@ -460,7 +464,7 @@
             // 
             this.btn_FIX.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_FIX.ColorTable = DevComponents.DotNetBar.eButtonColor.Orange;
-            this.btn_FIX.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_FIX.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_FIX.Location = new System.Drawing.Point(249, 17);
             this.btn_FIX.Name = "btn_FIX";
             this.btn_FIX.Shortcuts.Add(DevComponents.DotNetBar.eShortcut.Ins);
@@ -474,7 +478,7 @@
             // 
             this.btn_DELETE.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btn_DELETE.ColorTable = DevComponents.DotNetBar.eButtonColor.Orange;
-            this.btn_DELETE.Font = new System.Drawing.Font("Wide Latin", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_DELETE.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DELETE.Location = new System.Drawing.Point(127, 17);
             this.btn_DELETE.Name = "btn_DELETE";
             this.btn_DELETE.Shortcuts.Add(DevComponents.DotNetBar.eShortcut.Del);
@@ -512,14 +516,24 @@
             this.fontDialog1.ShowApply = true;
             this.fontDialog1.ShowColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QuanLyTHPT.Properties.Resources.student_21;
+            this.pictureBox1.Location = new System.Drawing.Point(272, 61);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            // 
             // HOCSINH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(643, 599);
+            this.ClientSize = new System.Drawing.Size(643, 602);
             this.Controls.Add(this.panelEx2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HOCSINH";
-            this.Text = "7";
+            this.Text = "Học Sinh";
             this.Load += new System.EventHandler(this.HOCSINH_Load);
             this.groupPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tbx_DATE)).EndInit();
@@ -527,6 +541,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.DGVHS)).EndInit();
             this.panelEx2.ResumeLayout(false);
             this.panelEx3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -563,6 +578,7 @@
         private DevComponents.DotNetBar.RadialMenuItem rd4;
         public DevComponents.DotNetBar.RadialMenuItem rd1;
         private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.PictureBox pictureBox1;
 
     }
 }
