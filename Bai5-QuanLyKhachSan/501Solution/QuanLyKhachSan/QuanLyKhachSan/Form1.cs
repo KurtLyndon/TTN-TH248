@@ -48,7 +48,7 @@ namespace QuanLyKhachSan
             {
                 MessageBox.Show("Welcome to QuanLyThuVien project", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 butKhachHang.Visible = butDichVu.Visible = butDoDung.Visible = butPhong.Visible = butQLDichVu.Visible = butQLDoDung.Visible = butQLPhong.Visible = butLogOut.Visible = true;
-                butLogIn.Visible = textID.Visible = textPass.Visible = label1.Visible = label2.Visible = false;
+                butLogIn.Visible = textID.Visible = textPass.Visible = label1.Visible = label2.Visible = panel2.Visible = panel3.Visible = false;
             }
             
         }
@@ -105,8 +105,21 @@ namespace QuanLyKhachSan
         {
             MessageBox.Show("Thanks for using QuanLyThuVien project", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             butLogOut.Visible = butKhachHang.Visible = butDichVu.Visible = butDoDung.Visible = butPhong.Visible = butQLDichVu.Visible = butQLDoDung.Visible = butQLPhong.Visible = false;
-            butLogIn.Visible = textID.Visible = textPass.Visible = label1.Visible = label2.Visible = true;
+            butLogIn.Visible = textID.Visible = textPass.Visible = label1.Visible = label2.Visible = panel2.Visible = panel3.Visible = true;
             textID.Text = textPass.Text = "";
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormHuongDan frm = new FormHuongDan();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
     }
 }

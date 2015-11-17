@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormQLDoDung));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.textSearch = new System.Windows.Forms.TextBox();
@@ -69,6 +70,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.textNum);
@@ -99,21 +101,21 @@
             this.panel5.Controls.Add(this.butFree);
             this.panel5.Location = new System.Drawing.Point(271, 202);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(169, 163);
+            this.panel5.Size = new System.Drawing.Size(169, 181);
             this.panel5.TabIndex = 35;
             // 
             // textSearch
             // 
-            this.textSearch.Location = new System.Drawing.Point(16, 96);
+            this.textSearch.Location = new System.Drawing.Point(21, 113);
             this.textSearch.Name = "textSearch";
             this.textSearch.Size = new System.Drawing.Size(131, 20);
             this.textSearch.TabIndex = 7;
             // 
             // butSearch
             // 
-            this.butSearch.Location = new System.Drawing.Point(16, 122);
+            this.butSearch.Location = new System.Drawing.Point(21, 139);
             this.butSearch.Name = "butSearch";
-            this.butSearch.Size = new System.Drawing.Size(131, 23);
+            this.butSearch.Size = new System.Drawing.Size(131, 24);
             this.butSearch.TabIndex = 6;
             this.butSearch.Text = "Search Mode";
             this.butSearch.UseVisualStyleBackColor = true;
@@ -121,9 +123,9 @@
             // 
             // butDel
             // 
-            this.butDel.Location = new System.Drawing.Point(80, 60);
+            this.butDel.Location = new System.Drawing.Point(85, 77);
             this.butDel.Name = "butDel";
-            this.butDel.Size = new System.Drawing.Size(67, 30);
+            this.butDel.Size = new System.Drawing.Size(67, 31);
             this.butDel.TabIndex = 5;
             this.butDel.Text = "Delete";
             this.butDel.UseVisualStyleBackColor = true;
@@ -132,54 +134,62 @@
             // radAdd
             // 
             this.radAdd.AutoSize = true;
-            this.radAdd.Location = new System.Drawing.Point(16, 45);
+            this.radAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.radAdd.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radAdd.Location = new System.Drawing.Point(21, 62);
             this.radAdd.Name = "radAdd";
-            this.radAdd.Size = new System.Drawing.Size(44, 17);
+            this.radAdd.Size = new System.Drawing.Size(46, 20);
             this.radAdd.TabIndex = 4;
             this.radAdd.Text = "Add";
-            this.radAdd.UseVisualStyleBackColor = true;
+            this.radAdd.UseVisualStyleBackColor = false;
             this.radAdd.CheckedChanged += new System.EventHandler(this.radView_CheckedChanged);
             // 
             // radEdit
             // 
             this.radEdit.AutoSize = true;
-            this.radEdit.Location = new System.Drawing.Point(16, 68);
+            this.radEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.radEdit.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radEdit.Location = new System.Drawing.Point(21, 85);
             this.radEdit.Name = "radEdit";
-            this.radEdit.Size = new System.Drawing.Size(43, 17);
+            this.radEdit.Size = new System.Drawing.Size(47, 20);
             this.radEdit.TabIndex = 4;
             this.radEdit.Text = "Edit";
-            this.radEdit.UseVisualStyleBackColor = true;
+            this.radEdit.UseVisualStyleBackColor = false;
             this.radEdit.CheckedChanged += new System.EventHandler(this.radView_CheckedChanged);
             // 
             // radView
             // 
             this.radView.AutoSize = true;
+            this.radView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.radView.Checked = true;
-            this.radView.Location = new System.Drawing.Point(16, 22);
+            this.radView.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radView.Location = new System.Drawing.Point(21, 39);
             this.radView.Name = "radView";
-            this.radView.Size = new System.Drawing.Size(48, 17);
+            this.radView.Size = new System.Drawing.Size(50, 20);
             this.radView.TabIndex = 2;
             this.radView.TabStop = true;
             this.radView.Text = "View";
-            this.radView.UseVisualStyleBackColor = true;
+            this.radView.UseVisualStyleBackColor = false;
             this.radView.CheckedChanged += new System.EventHandler(this.radView_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(62, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 15);
+            this.label1.Size = new System.Drawing.Size(44, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "Mode";
             // 
             // butFree
             // 
             this.butFree.Enabled = false;
-            this.butFree.Location = new System.Drawing.Point(80, 24);
+            this.butFree.Location = new System.Drawing.Point(85, 41);
             this.butFree.Name = "butFree";
-            this.butFree.Size = new System.Drawing.Size(67, 30);
+            this.butFree.Size = new System.Drawing.Size(67, 31);
             this.butFree.TabIndex = 0;
             this.butFree.Text = "View";
             this.butFree.UseVisualStyleBackColor = true;
@@ -188,16 +198,18 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Silver;
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Location = new System.Drawing.Point(272, 155);
+            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(270, 152);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 15);
+            this.label8.Size = new System.Drawing.Size(60, 21);
             this.label8.TabIndex = 36;
             this.label8.Text = "Number";
             // 
             // textNum
             // 
-            this.textNum.Location = new System.Drawing.Point(337, 149);
+            this.textNum.Location = new System.Drawing.Point(337, 153);
             this.textNum.Name = "textNum";
             this.textNum.ReadOnly = true;
             this.textNum.Size = new System.Drawing.Size(103, 20);
@@ -206,16 +218,18 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Silver;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Location = new System.Drawing.Point(271, 114);
+            this.label4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(270, 114);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 15);
+            this.label4.Size = new System.Drawing.Size(41, 21);
             this.label4.TabIndex = 37;
             this.label4.Text = "Item";
             // 
             // textID2
             // 
-            this.textID2.Location = new System.Drawing.Point(336, 111);
+            this.textID2.Location = new System.Drawing.Point(336, 115);
             this.textID2.Name = "textID2";
             this.textID2.ReadOnly = true;
             this.textID2.Size = new System.Drawing.Size(104, 20);
@@ -224,27 +238,30 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Silver;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(308, 21);
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(307, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 21);
+            this.label3.Size = new System.Drawing.Size(102, 25);
             this.label3.TabIndex = 39;
             this.label3.Text = "Information";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Silver;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(271, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 15);
+            this.label2.Size = new System.Drawing.Size(43, 21);
             this.label2.TabIndex = 38;
             this.label2.Text = "Room";
             // 
             // textID1
             // 
-            this.textID1.Location = new System.Drawing.Point(336, 69);
+            this.textID1.Location = new System.Drawing.Point(336, 73);
             this.textID1.Name = "textID1";
             this.textID1.ReadOnly = true;
             this.textID1.Size = new System.Drawing.Size(104, 20);
@@ -385,8 +402,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 395);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormQLDoDung";
-            this.Text = "FormQLDoDung";
+            this.Text = "Quản Lý Trang Thiết Bị";
             this.Load += new System.EventHandler(this.FormQLDoDung_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
