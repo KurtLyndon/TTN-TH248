@@ -63,6 +63,12 @@
     <Compile Include="FormDoDung.Designer.cs">
       <DependentUpon>FormDoDung.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormHuongDan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHuongDan.Designer.cs">
+      <DependentUpon>FormHuongDan.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     <EmbeddedResource Include="FormDoDung.resx">
       <DependentUpon>FormDoDung.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormHuongDan.resx">
+      <DependentUpon>FormHuongDan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormKhachHang.resx">
       <DependentUpon>FormKhachHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,7 +153,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icons\QLKS.ico" />
+    <Content Include="Images\Customers.png" />
+    <Content Include="Images\Furniture manage.png" />
+    <Content Include="Images\furniture.png" />
+    <Content Include="Images\guide.png" />
     <Content Include="Images\QLKS.jpg" />
+    <Content Include="Images\room manager.png" />
+    <Content Include="Images\Room.png" />
+    <Content Include="Images\Service manage.png" />
+    <Content Include="Images\Service.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
