@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyKho
+namespace QUANLYKHOTTN
 {
-    public partial class frm_Start : Form
+    public partial class Form1 : Form
     {
-        public frm_Start()
+        public Form1()
         {
             InitializeComponent();
         }
