@@ -1,6 +1,6 @@
-﻿namespace QuanLyKho
+﻿namespace QUANLYKHOTTN
 {
-    partial class frm_Start
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Start));
-            this.SuspendLayout();
-            // 
-            // frm_Start
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::QuanLyKho.Properties.Resources.QLKho;
-            this.ClientSize = new System.Drawing.Size(784, 382);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frm_Start";
-            this.Text = "Quản Lý Kho";
-            this.ResumeLayout(false);
-
+            this.Text = "Form1";
         }
 
         #endregion

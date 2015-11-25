@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyKho
+namespace QUANLYKHOTTN
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace QuanLyKho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Start());
+            Application.Run(new QUANLYKHO());
         }
     }
 }
