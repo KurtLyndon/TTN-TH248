@@ -27,3 +27,4 @@ E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUA
 E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.Properties.Resources.resources
 E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.QUANLYKHO.resources
 E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.csproj.GenerateResource.Cache
+C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\bin\Debug\QUANLYKHOTTN.exe.config
