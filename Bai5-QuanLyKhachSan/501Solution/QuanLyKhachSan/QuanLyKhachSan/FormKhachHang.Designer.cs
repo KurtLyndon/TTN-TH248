@@ -332,6 +332,8 @@
             this.ClientSize = new System.Drawing.Size(492, 397);
             this.Controls.Add(this.panel5);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(508, 435);
+            this.MinimumSize = new System.Drawing.Size(508, 435);
             this.Name = "FormKhachHang";
             this.Text = "Khách Hàng";
             this.Load += new System.EventHandler(this.FormKhachHang_Load);

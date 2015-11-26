@@ -403,6 +403,8 @@
             this.ClientSize = new System.Drawing.Size(661, 395);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(677, 433);
+            this.MinimumSize = new System.Drawing.Size(677, 433);
             this.Name = "FormQLDoDung";
             this.Text = "Quản Lý Trang Thiết Bị";
             this.Load += new System.EventHandler(this.FormQLDoDung_Load);

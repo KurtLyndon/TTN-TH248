@@ -31,3 +31,14 @@ C:\Users\DELL\Desktop\Bao Cao CN WEB\TTN-TH248\Bai3-QuanLyThuVien\301Solution\Qu
 C:\Users\HitMan\Documents\GitHub\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
 C:\Users\HitMan\Documents\GitHub\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
 C:\Users\HitMan\Documents\GitHub\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.BanDoc.resources
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frm_Start.resources
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.NXBTL.resources
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Sach.resources
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+E:\GitHub\TTN-TH248\Bai3-QuanLyThuVien\301Solution\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.HuongDan.resources

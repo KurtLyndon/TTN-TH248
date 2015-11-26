@@ -57,6 +57,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HuongDan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HuongDan.Designer.cs">
+      <DependentUpon>HuongDan.cs</DependentUpon>
+    </Compile>
     <Compile Include="NXBTL.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HuongDan.resx">
+      <DependentUpon>HuongDan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NXBTL.resx">
       <DependentUpon>NXBTL.cs</DependentUpon>
