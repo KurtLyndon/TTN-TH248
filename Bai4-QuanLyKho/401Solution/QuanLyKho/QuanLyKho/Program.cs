@@ -16,7 +16,7 @@ namespace QUANLYKHOTTN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QUANLYKHO());
+            Application.Run(new Form1());
         }
     }
 }

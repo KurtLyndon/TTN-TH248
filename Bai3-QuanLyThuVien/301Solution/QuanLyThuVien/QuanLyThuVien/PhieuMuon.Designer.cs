@@ -50,6 +50,7 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textDate2 = new System.Windows.Forms.TextBox();
             this.textDate1 = new System.Windows.Forms.TextBox();
@@ -75,16 +76,15 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -324,6 +324,15 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(673, 241);
             this.panel5.TabIndex = 14;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QuanLyThuVien.Properties.Resources.Phieu_Muon_2;
+            this.pictureBox1.Location = new System.Drawing.Point(281, 188);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -607,15 +616,6 @@
             this.columnHeader2.Text = "Reader ID";
             this.columnHeader2.Width = 106;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::QuanLyThuVien.Properties.Resources.Phieu_Muon_2;
-            this.pictureBox1.Location = new System.Drawing.Point(281, 188);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // PhieuMuon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -623,6 +623,8 @@
             this.ClientSize = new System.Drawing.Size(673, 420);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(689, 458);
+            this.MinimumSize = new System.Drawing.Size(689, 458);
             this.Name = "PhieuMuon";
             this.Text = "Phiếu Mượn";
             this.Load += new System.EventHandler(this.PhieuMuon_Load);
@@ -633,12 +635,12 @@
             this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -295,6 +295,8 @@
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.MaximumSize = new System.Drawing.Size(810, 579);
+            this.MinimumSize = new System.Drawing.Size(810, 579);
             this.Name = "frm_Start";
             this.Text = "Quản Lý Khách Sạn";
             this.panel1.ResumeLayout(false);

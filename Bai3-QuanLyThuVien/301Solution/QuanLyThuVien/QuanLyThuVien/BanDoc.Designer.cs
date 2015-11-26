@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BanDoc));
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.radF = new System.Windows.Forms.RadioButton();
             this.radM = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
@@ -58,12 +59,11 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel5
@@ -100,6 +100,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(307, 381);
             this.panel2.TabIndex = 13;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QuanLyThuVien.Properties.Resources.Reader_2;
+            this.pictureBox1.Location = new System.Drawing.Point(139, 317);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
             // 
             // radF
             // 
@@ -396,15 +405,6 @@
             this.columnHeader2.Text = "Reader Name";
             this.columnHeader2.Width = 145;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::QuanLyThuVien.Properties.Resources.Reader_2;
-            this.pictureBox1.Location = new System.Drawing.Point(139, 317);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.TabIndex = 22;
-            this.pictureBox1.TabStop = false;
-            // 
             // BanDoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -412,16 +412,18 @@
             this.ClientSize = new System.Drawing.Size(525, 381);
             this.Controls.Add(this.panel5);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(541, 419);
+            this.MinimumSize = new System.Drawing.Size(541, 419);
             this.Name = "BanDoc";
             this.Text = "Bạn Đọc";
             this.Load += new System.EventHandler(this.BanDoc_Load);
             this.panel5.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

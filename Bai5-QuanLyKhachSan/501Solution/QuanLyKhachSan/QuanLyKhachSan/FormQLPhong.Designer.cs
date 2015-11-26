@@ -487,6 +487,8 @@
             this.ClientSize = new System.Drawing.Size(688, 460);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(704, 498);
+            this.MinimumSize = new System.Drawing.Size(704, 498);
             this.Name = "FormQLPhong";
             this.Text = "Quản Lý Phòng";
             this.Load += new System.EventHandler(this.FormQLPhong_Load);

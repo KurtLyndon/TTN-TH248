@@ -48,3 +48,4 @@ C:\Users\HitMan\Documents\GitHub\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\
 C:\Users\HitMan\Documents\GitHub\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
 C:\Users\HitMan\Documents\GitHub\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
 C:\Users\HitMan\Documents\GitHub\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormHuongDan.resources
+E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormHuongDan.resources

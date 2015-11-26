@@ -308,6 +308,8 @@
             this.ClientSize = new System.Drawing.Size(454, 368);
             this.Controls.Add(this.panel5);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(470, 406);
+            this.MinimumSize = new System.Drawing.Size(470, 406);
             this.Name = "FormDichVu";
             this.Text = "Dịch Vụ";
             this.Load += new System.EventHandler(this.FormDichVu_Load);
