@@ -43,7 +43,7 @@
             // 
             // textID
             // 
-            this.textID.Location = new System.Drawing.Point(85, 16);
+            this.textID.Location = new System.Drawing.Point(91, 19);
             this.textID.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.textID.Name = "textID";
             this.textID.Size = new System.Drawing.Size(154, 20);
@@ -51,7 +51,7 @@
             // 
             // textPass
             // 
-            this.textPass.Location = new System.Drawing.Point(85, 40);
+            this.textPass.Location = new System.Drawing.Point(91, 43);
             this.textPass.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.textPass.Name = "textPass";
             this.textPass.PasswordChar = '*';
@@ -62,7 +62,7 @@
             // 
             this.butLogIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.butLogIn.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butLogIn.Location = new System.Drawing.Point(83, 66);
+            this.butLogIn.Location = new System.Drawing.Point(89, 69);
             this.butLogIn.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.butLogIn.Name = "butLogIn";
             this.butLogIn.Size = new System.Drawing.Size(74, 33);
@@ -77,7 +77,7 @@
             this.label1.BackColor = System.Drawing.Color.DimGray;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(13, 16);
+            this.label1.Location = new System.Drawing.Point(19, 19);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(25, 19);
@@ -90,7 +90,7 @@
             this.label2.BackColor = System.Drawing.Color.DimGray;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(13, 40);
+            this.label2.Location = new System.Drawing.Point(19, 43);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 19);
@@ -101,7 +101,7 @@
             // 
             this.butLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.butLogOut.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butLogOut.Location = new System.Drawing.Point(163, 66);
+            this.butLogOut.Location = new System.Drawing.Point(169, 69);
             this.butLogOut.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.butLogOut.Name = "butLogOut";
             this.butLogOut.Size = new System.Drawing.Size(74, 33);
@@ -113,34 +113,39 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.RosyBrown;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.textID);
             this.panel1.Controls.Add(this.butLogOut);
             this.panel1.Controls.Add(this.textPass);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.butLogIn);
-            this.panel1.Location = new System.Drawing.Point(145, 269);
+            this.panel1.Location = new System.Drawing.Point(341, 286);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(309, 130);
+            this.panel1.Size = new System.Drawing.Size(266, 113);
             this.panel1.TabIndex = 10;
             // 
             // butHuongDan
             // 
-            this.butHuongDan.Location = new System.Drawing.Point(174, 127);
+            this.butHuongDan.Image = global::QUANLYKHOTTN.Properties.Resources.guide;
+            this.butHuongDan.Location = new System.Drawing.Point(477, 135);
             this.butHuongDan.Name = "butHuongDan";
-            this.butHuongDan.Size = new System.Drawing.Size(75, 23);
+            this.butHuongDan.Size = new System.Drawing.Size(130, 130);
             this.butHuongDan.TabIndex = 11;
-            this.butHuongDan.Text = "HuongDan";
+            this.butHuongDan.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.butHuongDan.UseVisualStyleBackColor = true;
             this.butHuongDan.Click += new System.EventHandler(this.butHuongDan_Click);
             // 
             // butQuanLyKho
             // 
-            this.butQuanLyKho.Location = new System.Drawing.Point(331, 127);
+            this.butQuanLyKho.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butQuanLyKho.Image = global::QUANLYKHOTTN.Properties.Resources.Box;
+            this.butQuanLyKho.Location = new System.Drawing.Point(341, 135);
             this.butQuanLyKho.Name = "butQuanLyKho";
-            this.butQuanLyKho.Size = new System.Drawing.Size(75, 23);
+            this.butQuanLyKho.Size = new System.Drawing.Size(130, 130);
             this.butQuanLyKho.TabIndex = 11;
-            this.butQuanLyKho.Text = "QL KHO";
+            this.butQuanLyKho.Text = "Quản Lý Kho";
+            this.butQuanLyKho.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.butQuanLyKho.UseVisualStyleBackColor = true;
             this.butQuanLyKho.Click += new System.EventHandler(this.butQuanLyKho_Click);
             // 
