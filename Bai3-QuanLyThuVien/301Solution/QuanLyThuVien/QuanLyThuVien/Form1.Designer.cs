@@ -39,8 +39,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.butHuongDan = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.butLogOut = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // butBanDoc
@@ -107,7 +110,7 @@
             // 
             this.butLogIn.Font = new System.Drawing.Font("VNI-Fato", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butLogIn.ForeColor = System.Drawing.Color.Maroon;
-            this.butLogIn.Location = new System.Drawing.Point(67, 64);
+            this.butLogIn.Location = new System.Drawing.Point(59, 64);
             this.butLogIn.Name = "butLogIn";
             this.butLogIn.Size = new System.Drawing.Size(81, 33);
             this.butLogIn.TabIndex = 0;
@@ -157,27 +160,50 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.textID);
-            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.butLogIn);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.textPass);
-            this.panel1.Location = new System.Drawing.Point(267, 300);
+            this.panel1.Location = new System.Drawing.Point(270, 249);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 100);
             this.panel1.TabIndex = 5;
             // 
-            // button1
+            // butHuongDan
             // 
-            this.button1.Enabled = false;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button1.Image = global::QuanLyThuVien.Properties.Resources.guide;
-            this.button1.Location = new System.Drawing.Point(602, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 149);
-            this.button1.TabIndex = 6;
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Visible = false;
+            this.butHuongDan.Enabled = false;
+            this.butHuongDan.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.butHuongDan.Image = global::QuanLyThuVien.Properties.Resources.guide;
+            this.butHuongDan.Location = new System.Drawing.Point(602, 12);
+            this.butHuongDan.Name = "butHuongDan";
+            this.butHuongDan.Size = new System.Drawing.Size(130, 149);
+            this.butHuongDan.TabIndex = 6;
+            this.butHuongDan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.butHuongDan.UseVisualStyleBackColor = true;
+            this.butHuongDan.Visible = false;
+            this.butHuongDan.Click += new System.EventHandler(this.butHuongDan_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel2.Controls.Add(this.butLogOut);
+            this.panel2.Location = new System.Drawing.Point(273, 246);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.TabIndex = 7;
+            this.panel2.Visible = false;
+            // 
+            // butLogOut
+            // 
+            this.butLogOut.Font = new System.Drawing.Font("VNI-Fato", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butLogOut.ForeColor = System.Drawing.Color.Maroon;
+            this.butLogOut.Location = new System.Drawing.Point(59, 36);
+            this.butLogOut.Name = "butLogOut";
+            this.butLogOut.Size = new System.Drawing.Size(81, 33);
+            this.butLogOut.TabIndex = 0;
+            this.butLogOut.Text = "Log Out";
+            this.butLogOut.UseVisualStyleBackColor = true;
+            this.butLogOut.Click += new System.EventHandler(this.butLogOut_Click);
             // 
             // frm_Start
             // 
@@ -185,17 +211,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QuanLyThuVien.Properties.Resources.QLTV;
             this.ClientSize = new System.Drawing.Size(734, 412);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.butHuongDan);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.butPhieuMuon);
             this.Controls.Add(this.butNXB);
             this.Controls.Add(this.butSach);
             this.Controls.Add(this.butBanDoc);
+            this.Controls.Add(this.panel2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(750, 450);
+            this.MinimumSize = new System.Drawing.Size(750, 450);
             this.Name = "frm_Start";
             this.Text = "Quản Lý Thư Viện";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -212,7 +242,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button butHuongDan;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button butLogOut;
     }
 }
 
