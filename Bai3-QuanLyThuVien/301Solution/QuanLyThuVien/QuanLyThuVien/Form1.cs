@@ -70,9 +70,28 @@ namespace QuanLyThuVien
             else
             {
                 MessageBox.Show("Welcome to QuanLyThuVien project", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                butBanDoc.Enabled = butNXB.Enabled = butPhieuMuon.Enabled = butSach.Enabled = true;
-                butBanDoc.Visible = butNXB.Visible = butPhieuMuon.Visible = butSach.Visible = true;
+                butHuongDan.Enabled = butBanDoc.Enabled = butNXB.Enabled = butPhieuMuon.Enabled = butSach.Enabled = true;
+                butHuongDan.Visible = butBanDoc.Visible = butNXB.Visible = butPhieuMuon.Visible = butSach.Visible = true;
+                panel1.Visible = false;
+                panel2.Visible = true;
             }
+        }
+
+        private void butHuongDan_Click(object sender, EventArgs e)
+        {
+            HuongDan frm = new HuongDan();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
+
+        private void butLogOut_Click(object sender, EventArgs e)
+        {
+            butHuongDan.Enabled = butBanDoc.Enabled = butNXB.Enabled = butPhieuMuon.Enabled = butSach.Enabled = false;
+            butHuongDan.Visible = butBanDoc.Visible = butNXB.Visible = butPhieuMuon.Visible = butSach.Visible = false;
+            textID.Text = textPass.Text = "";
+            panel1.Visible = true;
+            panel2.Visible = false;
         }
     }
 }

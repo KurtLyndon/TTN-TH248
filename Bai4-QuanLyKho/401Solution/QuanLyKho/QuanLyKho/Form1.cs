@@ -16,5 +16,36 @@ namespace QUANLYKHOTTN
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butLogIn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butLogOut_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butHuongDan_Click(object sender, EventArgs e)
+        {
+            frmHuongDan frm = new frmHuongDan();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
+
+        private void butQuanLyKho_Click(object sender, EventArgs e)
+        {
+            QUANLYKHO frm = new QUANLYKHO();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
     }
 }

@@ -308,6 +308,8 @@
             this.ClientSize = new System.Drawing.Size(455, 361);
             this.Controls.Add(this.panel5);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(471, 399);
+            this.MinimumSize = new System.Drawing.Size(471, 399);
             this.Name = "FormDoDung";
             this.Text = "Trang Thiết Bị";
             this.Load += new System.EventHandler(this.FormDoDung_Load);
