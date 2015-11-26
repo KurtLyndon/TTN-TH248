@@ -14,3 +14,16 @@ D:\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyT
 C:\Users\HitMan\Documents\GitHub\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.exe.config
 C:\Users\HitMan\Documents\GitHub\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.exe
 C:\Users\HitMan\Documents\GitHub\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.pdb
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.exe.config
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.exe
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.pdb
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.exe
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.pdb
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.csprojResolveAssemblyReference.cache
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.frm_Start.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.GIAOVIENDATA.GIAOVIEN.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.HOCSINHDATA.HOCSINH.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.HUONGDAN.HuongDan.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.LOPDATA.LOP.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.Properties.Resources.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.csproj.GenerateResource.Cache
