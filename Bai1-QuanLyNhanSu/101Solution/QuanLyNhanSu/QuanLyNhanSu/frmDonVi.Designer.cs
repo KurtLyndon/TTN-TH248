@@ -140,9 +140,10 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Gray;
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Location = new System.Drawing.Point(31, 141);
+            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(30, 139);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(72, 18);
+            this.label8.Size = new System.Drawing.Size(75, 21);
             this.label8.TabIndex = 19;
             this.label8.Text = "ID Leader";
             // 
@@ -151,9 +152,10 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Gray;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Location = new System.Drawing.Point(31, 111);
+            this.label4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(30, 109);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 18);
+            this.label4.Size = new System.Drawing.Size(46, 21);
             this.label4.TabIndex = 17;
             this.label4.Text = "Name";
             // 
@@ -162,9 +164,10 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Gray;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Location = new System.Drawing.Point(31, 80);
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(30, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 18);
+            this.label3.Size = new System.Drawing.Size(27, 21);
             this.label3.TabIndex = 16;
             this.label3.Text = "ID";
             // 
@@ -173,10 +176,10 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Gray;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(97, 43);
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(73, 14);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 21);
+            this.label2.Size = new System.Drawing.Size(123, 29);
             this.label2.TabIndex = 15;
             this.label2.Text = "Information";
             // 
@@ -195,19 +198,19 @@
             this.panel4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.panel4.Location = new System.Drawing.Point(302, 264);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(272, 113);
+            this.panel4.Size = new System.Drawing.Size(272, 150);
             this.panel4.TabIndex = 21;
             // 
             // textSearch
             // 
-            this.textSearch.Location = new System.Drawing.Point(154, 28);
+            this.textSearch.Location = new System.Drawing.Point(154, 60);
             this.textSearch.Name = "textSearch";
             this.textSearch.Size = new System.Drawing.Size(102, 22);
             this.textSearch.TabIndex = 25;
             // 
             // butSearch
             // 
-            this.butSearch.Location = new System.Drawing.Point(154, 70);
+            this.butSearch.Location = new System.Drawing.Point(154, 102);
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(102, 30);
             this.butSearch.TabIndex = 5;
@@ -217,7 +220,7 @@
             // 
             // butDel
             // 
-            this.butDel.Location = new System.Drawing.Point(73, 70);
+            this.butDel.Location = new System.Drawing.Point(73, 102);
             this.butDel.Name = "butDel";
             this.butDel.Size = new System.Drawing.Size(67, 30);
             this.butDel.TabIndex = 5;
@@ -228,9 +231,10 @@
             // radAdd
             // 
             this.radAdd.AutoSize = true;
-            this.radAdd.Location = new System.Drawing.Point(16, 54);
+            this.radAdd.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radAdd.Location = new System.Drawing.Point(16, 86);
             this.radAdd.Name = "radAdd";
-            this.radAdd.Size = new System.Drawing.Size(51, 20);
+            this.radAdd.Size = new System.Drawing.Size(53, 23);
             this.radAdd.TabIndex = 4;
             this.radAdd.Text = "Add";
             this.radAdd.UseVisualStyleBackColor = true;
@@ -239,9 +243,10 @@
             // radEdit
             // 
             this.radEdit.AutoSize = true;
-            this.radEdit.Location = new System.Drawing.Point(17, 80);
+            this.radEdit.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radEdit.Location = new System.Drawing.Point(17, 112);
             this.radEdit.Name = "radEdit";
-            this.radEdit.Size = new System.Drawing.Size(50, 20);
+            this.radEdit.Size = new System.Drawing.Size(53, 23);
             this.radEdit.TabIndex = 4;
             this.radEdit.Text = "Edit";
             this.radEdit.UseVisualStyleBackColor = true;
@@ -252,16 +257,17 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Location = new System.Drawing.Point(109, 4);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(109, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 18);
+            this.label1.Size = new System.Drawing.Size(63, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Mode";
             // 
             // btnFree
             // 
             this.btnFree.Enabled = false;
-            this.btnFree.Location = new System.Drawing.Point(73, 25);
+            this.btnFree.Location = new System.Drawing.Point(73, 57);
             this.btnFree.Name = "btnFree";
             this.btnFree.Size = new System.Drawing.Size(67, 28);
             this.btnFree.TabIndex = 0;
@@ -273,9 +279,10 @@
             // 
             this.radView.AutoSize = true;
             this.radView.Checked = true;
-            this.radView.Location = new System.Drawing.Point(16, 28);
+            this.radView.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radView.Location = new System.Drawing.Point(16, 60);
             this.radView.Name = "radView";
-            this.radView.Size = new System.Drawing.Size(58, 20);
+            this.radView.Size = new System.Drawing.Size(56, 23);
             this.radView.TabIndex = 2;
             this.radView.TabStop = true;
             this.radView.Text = "View";
@@ -287,7 +294,7 @@
             this.pictureBox1.Image = global::QuanLyNhanSu.Properties.Resources.office;
             this.pictureBox1.Location = new System.Drawing.Point(66, 264);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox1.Size = new System.Drawing.Size(129, 133);
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 

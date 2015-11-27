@@ -410,17 +410,17 @@
             // 
             // textSearch
             // 
-            this.textSearch.Location = new System.Drawing.Point(140, 55);
+            this.textSearch.Location = new System.Drawing.Point(157, 55);
             this.textSearch.Name = "textSearch";
-            this.textSearch.Size = new System.Drawing.Size(121, 20);
+            this.textSearch.Size = new System.Drawing.Size(104, 20);
             this.textSearch.TabIndex = 25;
             // 
             // butSearch
             // 
-            this.butSearch.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butSearch.Location = new System.Drawing.Point(140, 83);
+            this.butSearch.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butSearch.Location = new System.Drawing.Point(157, 83);
             this.butSearch.Name = "butSearch";
-            this.butSearch.Size = new System.Drawing.Size(121, 30);
+            this.butSearch.Size = new System.Drawing.Size(104, 30);
             this.butSearch.TabIndex = 5;
             this.butSearch.Text = "Search Mode";
             this.butSearch.UseVisualStyleBackColor = true;
@@ -428,8 +428,8 @@
             // 
             // butDel
             // 
-            this.butDel.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butDel.Location = new System.Drawing.Point(58, 83);
+            this.butDel.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butDel.Location = new System.Drawing.Point(77, 84);
             this.butDel.Name = "butDel";
             this.butDel.Size = new System.Drawing.Size(77, 30);
             this.butDel.TabIndex = 5;
@@ -440,9 +440,10 @@
             // radAdd
             // 
             this.radAdd.AutoSize = true;
+            this.radAdd.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radAdd.Location = new System.Drawing.Point(8, 70);
             this.radAdd.Name = "radAdd";
-            this.radAdd.Size = new System.Drawing.Size(44, 17);
+            this.radAdd.Size = new System.Drawing.Size(53, 23);
             this.radAdd.TabIndex = 4;
             this.radAdd.Text = "Add";
             this.radAdd.UseVisualStyleBackColor = true;
@@ -451,9 +452,10 @@
             // radEdit
             // 
             this.radEdit.AutoSize = true;
+            this.radEdit.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radEdit.Location = new System.Drawing.Point(8, 93);
             this.radEdit.Name = "radEdit";
-            this.radEdit.Size = new System.Drawing.Size(43, 17);
+            this.radEdit.Size = new System.Drawing.Size(53, 23);
             this.radEdit.TabIndex = 4;
             this.radEdit.Text = "Edit";
             this.radEdit.UseVisualStyleBackColor = true;
@@ -463,9 +465,10 @@
             // 
             this.radView.AutoSize = true;
             this.radView.Checked = true;
+            this.radView.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radView.Location = new System.Drawing.Point(8, 47);
             this.radView.Name = "radView";
-            this.radView.Size = new System.Drawing.Size(48, 17);
+            this.radView.Size = new System.Drawing.Size(56, 23);
             this.radView.TabIndex = 2;
             this.radView.TabStop = true;
             this.radView.Text = "View";
@@ -477,18 +480,18 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Orange;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(85, 7);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(110, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 26);
+            this.label1.Size = new System.Drawing.Size(52, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Mode";
             // 
             // btnFree
             // 
             this.btnFree.Enabled = false;
-            this.btnFree.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFree.Location = new System.Drawing.Point(58, 47);
+            this.btnFree.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFree.Location = new System.Drawing.Point(77, 48);
             this.btnFree.Name = "btnFree";
             this.btnFree.Size = new System.Drawing.Size(77, 30);
             this.btnFree.TabIndex = 0;
