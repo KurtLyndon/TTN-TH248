@@ -16,5 +16,13 @@ namespace QuanLySieuThi
         {
             InitializeComponent();
         }
+
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            QUANLYSIEUTHI frmmain = new QUANLYSIEUTHI();
+            frmmain.ShowDialog();
+            this.Close() ;
+        }
     }
 }
