@@ -1,1 +1,11 @@
 C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojResolveAssemblyReference.cache
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm_Start.resources
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.QUANLYSIEUTHI.resources
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.Cache
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+E:\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
