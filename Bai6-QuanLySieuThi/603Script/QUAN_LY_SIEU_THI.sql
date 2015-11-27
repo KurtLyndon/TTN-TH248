@@ -2,7 +2,8 @@
 use QUAN_LY_SIEU_THI
 go
 create table KHACHHANG
-(	ID_KhachHang varchar(10) not null, TenKhachHang nvarchar(50), CMND varchar(10), SDT bigint 
+(
+	ID_KhachHang varchar(10) not null, TenKhachHang nvarchar(50), CMND varchar(10), SDT bigint 
 )
 create table NHANVIEN
 (	ID_NhanVien varchar(10) not null, TenNhanVien nvarchar(50), CMND varchar(10), SDT bigint 
@@ -21,7 +22,7 @@ create table DANGNHAP
 (	Username varchar(50) not null,
 	Pass varchar(50)
 )
-drop table HOADON
+--drop table HOADON
  go 
  insert into NHANVIEN values
 ('NV001',N'Lê Thị Ngọc','174200022','0928182732'),
@@ -66,6 +67,7 @@ insert into HANGHOA values
 ('HH015',N'Bánh kẹo Hải Hà','140','9200')
 
 go
+
 insert into HOADON values
 ('HD001','NV001','KH001','1/1/2015'),
 ('HD002','NV002','KH002','2/2/2015'),
