@@ -35,6 +35,8 @@
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
             this.radF = new System.Windows.Forms.RadioButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.radM = new System.Windows.Forms.RadioButton();
             this.textRelationship = new System.Windows.Forms.TextBox();
             this.textID2 = new System.Windows.Forms.TextBox();
@@ -54,17 +56,15 @@
             this.butDel = new System.Windows.Forms.Button();
             this.radAdd = new System.Windows.Forms.RadioButton();
             this.radEdit = new System.Windows.Forms.RadioButton();
-            this.radView = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.btnFree = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.radView = new System.Windows.Forms.RadioButton();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,7 +126,7 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.panel3.Location = new System.Drawing.Point(371, 37);
+            this.panel3.Location = new System.Drawing.Point(320, 37);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(268, 258);
             this.panel3.TabIndex = 19;
@@ -134,17 +134,35 @@
             // radF
             // 
             this.radF.AutoSize = true;
-            this.radF.Location = new System.Drawing.Point(173, 144);
+            this.radF.Location = new System.Drawing.Point(185, 146);
             this.radF.Name = "radF";
             this.radF.Size = new System.Drawing.Size(14, 13);
             this.radF.TabIndex = 32;
             this.radF.TabStop = true;
             this.radF.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QuanLyNhanSu.Properties.Resources.female_symbol;
+            this.pictureBox1.Location = new System.Drawing.Point(205, 139);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 31);
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::QuanLyNhanSu.Properties.Resources.male_symbol;
+            this.pictureBox2.Location = new System.Drawing.Point(141, 139);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 31);
+            this.pictureBox2.TabIndex = 22;
+            this.pictureBox2.TabStop = false;
+            // 
             // radM
             // 
             this.radM.AutoSize = true;
-            this.radM.Location = new System.Drawing.Point(109, 144);
+            this.radM.Location = new System.Drawing.Point(121, 146);
             this.radM.Name = "radM";
             this.radM.Size = new System.Drawing.Size(14, 13);
             this.radM.TabIndex = 32;
@@ -153,7 +171,7 @@
             // 
             // textRelationship
             // 
-            this.textRelationship.Location = new System.Drawing.Point(111, 211);
+            this.textRelationship.Location = new System.Drawing.Point(123, 213);
             this.textRelationship.Name = "textRelationship";
             this.textRelationship.ReadOnly = true;
             this.textRelationship.Size = new System.Drawing.Size(102, 22);
@@ -161,7 +179,7 @@
             // 
             // textID2
             // 
-            this.textID2.Location = new System.Drawing.Point(111, 180);
+            this.textID2.Location = new System.Drawing.Point(123, 182);
             this.textID2.Name = "textID2";
             this.textID2.ReadOnly = true;
             this.textID2.Size = new System.Drawing.Size(102, 22);
@@ -169,7 +187,7 @@
             // 
             // textDoB
             // 
-            this.textDoB.Location = new System.Drawing.Point(111, 109);
+            this.textDoB.Location = new System.Drawing.Point(123, 111);
             this.textDoB.Name = "textDoB";
             this.textDoB.ReadOnly = true;
             this.textDoB.Size = new System.Drawing.Size(102, 22);
@@ -177,15 +195,15 @@
             // 
             // textName
             // 
-            this.textName.Location = new System.Drawing.Point(111, 78);
+            this.textName.Location = new System.Drawing.Point(123, 80);
             this.textName.Name = "textName";
             this.textName.ReadOnly = true;
-            this.textName.Size = new System.Drawing.Size(140, 22);
+            this.textName.Size = new System.Drawing.Size(128, 22);
             this.textName.TabIndex = 25;
             // 
             // textID
             // 
-            this.textID.Location = new System.Drawing.Point(111, 47);
+            this.textID.Location = new System.Drawing.Point(123, 49);
             this.textID.Name = "textID";
             this.textID.ReadOnly = true;
             this.textID.Size = new System.Drawing.Size(102, 22);
@@ -196,9 +214,10 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Gray;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label7.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(16, 183);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 18);
+            this.label7.Size = new System.Drawing.Size(90, 21);
             this.label7.TabIndex = 22;
             this.label7.Text = "ID Employee";
             // 
@@ -207,9 +226,10 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Gray;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(16, 112);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(89, 18);
+            this.label5.Size = new System.Drawing.Size(98, 21);
             this.label5.TabIndex = 21;
             this.label5.Text = "Date of Birth";
             // 
@@ -218,9 +238,10 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Gray;
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(16, 214);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(89, 18);
+            this.label8.Size = new System.Drawing.Size(86, 21);
             this.label8.TabIndex = 19;
             this.label8.Text = "Relationship";
             // 
@@ -229,9 +250,10 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Gray;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label6.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(16, 142);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 18);
+            this.label6.Size = new System.Drawing.Size(55, 21);
             this.label6.TabIndex = 18;
             this.label6.Text = "Gender";
             // 
@@ -240,9 +262,10 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Gray;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(16, 81);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 18);
+            this.label4.Size = new System.Drawing.Size(46, 21);
             this.label4.TabIndex = 17;
             this.label4.Text = "Name";
             // 
@@ -251,9 +274,10 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Gray;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(16, 50);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 18);
+            this.label3.Size = new System.Drawing.Size(27, 21);
             this.label3.TabIndex = 16;
             this.label3.Text = "ID";
             // 
@@ -262,10 +286,10 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Gray;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(95, 13);
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(85, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 21);
+            this.label2.Size = new System.Drawing.Size(102, 25);
             this.label2.TabIndex = 15;
             this.label2.Text = "Information";
             // 
@@ -282,14 +306,14 @@
             this.panel4.Controls.Add(this.btnFree);
             this.panel4.Controls.Add(this.radView);
             this.panel4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.panel4.Location = new System.Drawing.Point(371, 301);
+            this.panel4.Location = new System.Drawing.Point(320, 301);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(268, 115);
             this.panel4.TabIndex = 18;
             // 
             // textSearch
             // 
-            this.textSearch.Location = new System.Drawing.Point(149, 28);
+            this.textSearch.Location = new System.Drawing.Point(149, 37);
             this.textSearch.Name = "textSearch";
             this.textSearch.Size = new System.Drawing.Size(102, 22);
             this.textSearch.TabIndex = 25;
@@ -317,9 +341,10 @@
             // radAdd
             // 
             this.radAdd.AutoSize = true;
+            this.radAdd.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radAdd.Location = new System.Drawing.Point(16, 53);
             this.radAdd.Name = "radAdd";
-            this.radAdd.Size = new System.Drawing.Size(51, 20);
+            this.radAdd.Size = new System.Drawing.Size(53, 23);
             this.radAdd.TabIndex = 4;
             this.radAdd.Text = "Add";
             this.radAdd.UseVisualStyleBackColor = true;
@@ -328,42 +353,31 @@
             // radEdit
             // 
             this.radEdit.AutoSize = true;
-            this.radEdit.Location = new System.Drawing.Point(16, 79);
+            this.radEdit.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radEdit.Location = new System.Drawing.Point(16, 74);
             this.radEdit.Name = "radEdit";
-            this.radEdit.Size = new System.Drawing.Size(50, 20);
+            this.radEdit.Size = new System.Drawing.Size(53, 23);
             this.radEdit.TabIndex = 4;
             this.radEdit.Text = "Edit";
             this.radEdit.UseVisualStyleBackColor = true;
             this.radEdit.CheckedChanged += new System.EventHandler(this.radAdd_CheckedChanged);
-            // 
-            // radView
-            // 
-            this.radView.AutoSize = true;
-            this.radView.Checked = true;
-            this.radView.Location = new System.Drawing.Point(16, 27);
-            this.radView.Name = "radView";
-            this.radView.Size = new System.Drawing.Size(58, 20);
-            this.radView.TabIndex = 2;
-            this.radView.TabStop = true;
-            this.radView.Text = "View";
-            this.radView.UseVisualStyleBackColor = true;
-            this.radView.CheckedChanged += new System.EventHandler(this.radAdd_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(109, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 18);
+            this.label1.Size = new System.Drawing.Size(52, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Mode";
             // 
             // btnFree
             // 
             this.btnFree.Enabled = false;
-            this.btnFree.Location = new System.Drawing.Point(73, 24);
+            this.btnFree.Location = new System.Drawing.Point(73, 33);
             this.btnFree.Name = "btnFree";
             this.btnFree.Size = new System.Drawing.Size(67, 30);
             this.btnFree.TabIndex = 0;
@@ -371,23 +385,19 @@
             this.btnFree.UseVisualStyleBackColor = true;
             this.btnFree.Click += new System.EventHandler(this.btnFree_Click);
             // 
-            // pictureBox1
+            // radView
             // 
-            this.pictureBox1.Image = global::QuanLyNhanSu.Properties.Resources.female_symbol;
-            this.pictureBox1.Location = new System.Drawing.Point(193, 137);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(25, 31);
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::QuanLyNhanSu.Properties.Resources.male_symbol;
-            this.pictureBox2.Location = new System.Drawing.Point(129, 137);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 31);
-            this.pictureBox2.TabIndex = 22;
-            this.pictureBox2.TabStop = false;
+            this.radView.AutoSize = true;
+            this.radView.Checked = true;
+            this.radView.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radView.Location = new System.Drawing.Point(16, 33);
+            this.radView.Name = "radView";
+            this.radView.Size = new System.Drawing.Size(56, 23);
+            this.radView.TabIndex = 2;
+            this.radView.TabStop = true;
+            this.radView.Text = "View";
+            this.radView.UseVisualStyleBackColor = true;
+            this.radView.CheckedChanged += new System.EventHandler(this.radAdd_CheckedChanged);
             // 
             // pictureBox3
             // 
@@ -402,7 +412,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(682, 428);
+            this.ClientSize = new System.Drawing.Size(633, 428);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
@@ -414,10 +424,10 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
