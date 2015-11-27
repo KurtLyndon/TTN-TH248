@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace QuanLySieuThi
 {
+
     public partial class QUANLYSIEUTHI : Form
+
     {
+        public QUANLYSIEUTHI()
+        {
+            InitializeComponent();
+        }
         
         List<string> ID_DELETE;
         DATA.CHITIETHOADONDATA CTHD;
@@ -29,10 +35,7 @@ namespace QuanLySieuThi
             List<string> list_HD;
             List<string> list_NV;
             List<string> list_CTHD;
-        public QUANLYSIEUTHI()
-        {
-            InitializeComponent();
-        }
+       
 
         private void dataGridViewX1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
