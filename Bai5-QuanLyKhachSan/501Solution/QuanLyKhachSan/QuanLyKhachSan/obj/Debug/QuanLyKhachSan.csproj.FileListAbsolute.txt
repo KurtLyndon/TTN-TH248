@@ -49,3 +49,20 @@ C:\Users\HitMan\Documents\GitHub\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\
 C:\Users\HitMan\Documents\GitHub\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
 C:\Users\HitMan\Documents\GitHub\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormHuongDan.resources
 E:\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormHuongDan.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.frm_Start.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormDichVu.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormDoDung.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormHuongDan.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormKhachHang.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormPhong.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLDichVu.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLDoDung.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.FormQLPhong.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai5-QuanLyKhachSan\501Solution\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
