@@ -17,7 +17,7 @@ namespace QuanLySieuThi.APP_DATA
        public SqlConnection con;
        public SqlCommand cmd;
        //public string sql;
-       CONNECT cn=new CONNECT();
+       Connector cn=new Connector();
        public DataTable SHOWDATA()
        {
 

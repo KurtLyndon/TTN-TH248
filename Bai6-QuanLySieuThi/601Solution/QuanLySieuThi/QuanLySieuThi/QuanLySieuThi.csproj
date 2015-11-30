@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="APP_DATA\CONNECT.cs" />
+    <Compile Include="APP_DATA\Connector.cs" />
     <Compile Include="APP_DATA\DATA.cs" />
     <Compile Include="DATA\CHITIETHOADONDATA.cs" />
     <Compile Include="DATA\HANGHOADATA.cs" />
