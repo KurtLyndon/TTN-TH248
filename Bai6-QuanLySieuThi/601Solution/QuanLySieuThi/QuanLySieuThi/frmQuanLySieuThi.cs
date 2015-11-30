@@ -11,10 +11,10 @@ using System.Windows.Forms;
 namespace QuanLySieuThi
 {
 
-    public partial class QUANLYSIEUTHI : Form
+    public partial class frmQuanLySieuThi : Form
 
     {
-        public QUANLYSIEUTHI()
+        public frmQuanLySieuThi()
         {
             InitializeComponent();
         }

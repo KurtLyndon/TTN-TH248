@@ -58,25 +58,25 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HUONGDAN.cs">
+    <Compile Include="frmHuongDan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HUONGDAN.Designer.cs">
-      <DependentUpon>HUONGDAN.cs</DependentUpon>
+    <Compile Include="frmHuongDan.Designer.cs">
+      <DependentUpon>frmHuongDan.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QUANLYSIEUTHI.cs">
+    <Compile Include="frmQuanLySieuThi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QUANLYSIEUTHI.Designer.cs">
-      <DependentUpon>QUANLYSIEUTHI.cs</DependentUpon>
+    <Compile Include="frmQuanLySieuThi.Designer.cs">
+      <DependentUpon>frmQuanLySieuThi.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HUONGDAN.resx">
-      <DependentUpon>HUONGDAN.cs</DependentUpon>
+    <EmbeddedResource Include="frmHuongDan.resx">
+      <DependentUpon>frmHuongDan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,8 +88,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="QUANLYSIEUTHI.resx">
-      <DependentUpon>QUANLYSIEUTHI.cs</DependentUpon>
+    <EmbeddedResource Include="frmQuanLySieuThi.resx">
+      <DependentUpon>frmQuanLySieuThi.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

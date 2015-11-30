@@ -20,7 +20,7 @@ namespace QuanLySieuThi
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            QUANLYSIEUTHI frmQLST = new QUANLYSIEUTHI();
+            frmQuanLySieuThi frmQLST = new frmQuanLySieuThi();
             frmQLST.ShowDialog();
             this.Close();
            this.Dispose();
@@ -28,7 +28,7 @@ namespace QuanLySieuThi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HUONGDAN frmQLST = new HUONGDAN();
+            frmHuongDan frmQLST = new frmHuongDan();
             frmQLST.ShowDialog();
         }
     }

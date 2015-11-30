@@ -1,6 +1,6 @@
 ﻿namespace QuanLySieuThi
 {
-    partial class HUONGDAN
+    partial class frmHuongDan
     {
         /// <summary>
         /// Required designer variable.
@@ -44,7 +44,7 @@
             treeNode6,
             treeNode7,
             treeNode8});
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HUONGDAN));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHuongDan));
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
