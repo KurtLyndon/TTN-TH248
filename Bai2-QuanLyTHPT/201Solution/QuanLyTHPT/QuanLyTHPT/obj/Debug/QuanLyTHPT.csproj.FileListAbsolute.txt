@@ -27,3 +27,16 @@ C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\Quan
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.LOPDATA.LOP.resources
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.Properties.Resources.resources
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.csproj.GenerateResource.Cache
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.exe.config
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.exe
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.pdb
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.exe
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\bin\Debug\QuanLyTHPT.pdb
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.csprojResolveAssemblyReference.cache
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.frm_Start.resources
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.GIAOVIENDATA.frmGiaoVien.resources
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.HOCSINHDATA.frmHocSinh.resources
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.HUONGDAN.frmHuongDan.resources
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.LOPDATA.frmLop.resources
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.Properties.Resources.resources
+E:\GitHub\TTN-TH248\Bai2-QuanLyTHPT\201Solution\QuanLyTHPT\QuanLyTHPT\obj\Debug\QuanLyTHPT.csproj.GenerateResource.Cache

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyTHPT.GIAOVIENDATA
 {
-    public partial class GIAOVIEN : Form
+    public partial class frmGiaoVien : Form
     {
-        public GIAOVIEN()
+        public frmGiaoVien()
         {
             InitializeComponent();
         }
