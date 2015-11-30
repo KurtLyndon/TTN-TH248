@@ -20,3 +20,6 @@ C:\Users\HitMan\Documents\GitHub\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\Qu
 C:\Users\HitMan\Documents\GitHub\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.QUANLYSIEUTHI.resources
 C:\Users\HitMan\Documents\GitHub\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.Cache
 C:\Users\HitMan\Documents\GitHub\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.HUONGDAN.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
