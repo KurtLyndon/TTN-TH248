@@ -23,3 +23,11 @@ C:\Users\HitMan\Documents\GitHub\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\Qu
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojResolveAssemblyReference.cache
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm_Start.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.HUONGDAN.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.QUANLYSIEUTHI.resources
+C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.Cache
