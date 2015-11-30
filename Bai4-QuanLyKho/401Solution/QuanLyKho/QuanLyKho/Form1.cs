@@ -42,7 +42,7 @@ namespace QUANLYKHOTTN
 
         private void butQuanLyKho_Click(object sender, EventArgs e)
         {
-            QUANLYKHO frm = new QUANLYKHO();
+            frmQuanLyKho frm = new frmQuanLyKho();
             frm.ShowDialog();
             frm.Close();
             frm.Dispose();
