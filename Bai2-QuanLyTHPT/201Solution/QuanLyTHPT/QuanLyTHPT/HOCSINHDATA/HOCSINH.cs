@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace QuanLyTHPT.HOCSINHDATA
 {
-    public partial class frmHocSinh : Form
+    public partial class HOCSINH : Form
     {
         List<string> HS;
         HOCSINHDATA hocsinh = new HOCSINHDATA();
         DataTable dt = new DataTable();
-        public frmHocSinh()
+        public HOCSINH()
         {
             InitializeComponent();
 

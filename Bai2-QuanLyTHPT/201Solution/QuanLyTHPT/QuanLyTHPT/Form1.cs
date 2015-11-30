@@ -25,37 +25,35 @@ namespace QuanLyTHPT
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            LOPDATA.frmLop frm = new LOPDATA.frmLop();
-            frm.ShowDialog();
-            frm.Close();
-            frm.Dispose();
+            LOPDATA.LOP frclass = new LOPDATA.LOP();
+            frclass.ShowDialog();
+            
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            HOCSINHDATA.frmHocSinh frm = new HOCSINHDATA.frmHocSinh();
-            frm.ShowDialog();
-            frm.Close();
-            frm.Dispose();
+            HOCSINHDATA.HOCSINH frstudent = new HOCSINHDATA.HOCSINH();
+            frstudent.ShowDialog();
+            
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            GIAOVIENDATA.frmGiaoVien frm = new GIAOVIENDATA.frmGiaoVien();
-            frm.ShowDialog();
-            frm.Close();
-            frm.Dispose();
+            GIAOVIENDATA.GIAOVIEN frteacher = new GIAOVIENDATA.GIAOVIEN();
+            frteacher.ShowDialog();
+            this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            HUONGDAN.frmHuongDan frm = new HUONGDAN.frmHuongDan();
+            HUONGDAN.HuongDan frm = new HUONGDAN.HuongDan();
             frm.ShowDialog();
-            frm.Close();
-            frm.Dispose();
+            this.Close();
         }
 
        

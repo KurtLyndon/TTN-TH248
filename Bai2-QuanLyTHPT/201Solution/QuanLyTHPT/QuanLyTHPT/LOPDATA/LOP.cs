@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyTHPT.LOPDATA
 {
-    public partial class frmLop : Form
+    public partial class LOP : Form
     {
-        public frmLop()
+        public LOP()
         {
           InitializeComponent();
         }

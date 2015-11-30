@@ -1,6 +1,6 @@
 ﻿namespace QuanLyTHPT.HUONGDAN
 {
-    partial class frmHuongDan
+    partial class HuongDan
     {
         /// <summary>
         /// Required designer variable.
@@ -42,7 +42,7 @@
             treeNode5,
             treeNode6,
             treeNode7});
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHuongDan));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HuongDan));
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
@@ -52,7 +52,7 @@
             this.treeView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.treeView1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.treeView1.Location = new System.Drawing.Point(13, 12);
+            this.treeView1.Location = new System.Drawing.Point(13, 13);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "GT_NTH";
             treeNode1.Text = "Nhóm Thực Hiện";
@@ -73,29 +73,29 @@
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode3,
             treeNode8});
-            this.treeView1.Size = new System.Drawing.Size(216, 405);
+            this.treeView1.Size = new System.Drawing.Size(216, 436);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(235, 12);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 19);
+            this.webBrowser1.Location = new System.Drawing.Point(235, 13);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(787, 405);
+            this.webBrowser1.Size = new System.Drawing.Size(787, 436);
             this.webBrowser1.TabIndex = 1;
             // 
-            // frmHuongDan
+            // HuongDan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1034, 429);
+            this.ClientSize = new System.Drawing.Size(1034, 461);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.treeView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(1050, 467);
-            this.MinimumSize = new System.Drawing.Size(1050, 467);
-            this.Name = "frmHuongDan";
+            this.MaximumSize = new System.Drawing.Size(1050, 500);
+            this.MinimumSize = new System.Drawing.Size(1050, 500);
+            this.Name = "HuongDan";
             this.Text = "Hướng Dẫn";
             this.ResumeLayout(false);
 

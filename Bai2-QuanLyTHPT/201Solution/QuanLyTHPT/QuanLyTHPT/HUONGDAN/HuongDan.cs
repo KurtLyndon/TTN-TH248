@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyTHPT.HUONGDAN
 {
-    public partial class frmHuongDan : Form
+    public partial class HuongDan : Form
     {
-        public frmHuongDan()
+        public HuongDan()
         {
             InitializeComponent();
         }

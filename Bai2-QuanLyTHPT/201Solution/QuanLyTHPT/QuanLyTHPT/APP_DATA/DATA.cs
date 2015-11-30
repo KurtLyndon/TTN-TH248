@@ -17,7 +17,7 @@ namespace QuanLyTHPT.APP_DATA
        public SqlConnection con;
        public SqlCommand cmd;
        //public string sql;
-       Connector cn=new Connector();
+       CONNECT cn=new CONNECT();
        public DataTable SHOWDATA()
        {
 

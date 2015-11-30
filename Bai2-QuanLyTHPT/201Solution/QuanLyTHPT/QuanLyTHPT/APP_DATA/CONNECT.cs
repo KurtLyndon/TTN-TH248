@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace QuanLyTHPT.APP_DATA
 {
-   public class Connector
+   public class CONNECT
     {
-       public Connector() { }
+       public CONNECT() { }
        public String getconnect()
        {
            return (@"Data Source=QUAN-PC\QUAN;Initial Catalog=QL_HOCSINH_GIAOVIEN;Integrated Security=True");
