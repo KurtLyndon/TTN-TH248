@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="APP_DATA\CONNECT.cs" />
+    <Compile Include="APP_DATA\Connector.cs" />
     <Compile Include="APP_DATA\DATA.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -53,31 +53,31 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GIAOVIENDATA\GIAOVIEN.cs">
+    <Compile Include="GIAOVIENDATA\frmGiaoVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GIAOVIENDATA\GIAOVIEN.Designer.cs">
-      <DependentUpon>GIAOVIEN.cs</DependentUpon>
+    <Compile Include="GIAOVIENDATA\frmGiaoVien.Designer.cs">
+      <DependentUpon>frmGiaoVien.cs</DependentUpon>
     </Compile>
     <Compile Include="GIAOVIENDATA\GIAOVIENDATA.cs" />
-    <Compile Include="HOCSINHDATA\HOCSINH.cs">
+    <Compile Include="HOCSINHDATA\frmHocSinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HOCSINHDATA\HOCSINH.Designer.cs">
-      <DependentUpon>HOCSINH.cs</DependentUpon>
+    <Compile Include="HOCSINHDATA\frmHocSinh.Designer.cs">
+      <DependentUpon>frmHocSinh.cs</DependentUpon>
     </Compile>
     <Compile Include="HOCSINHDATA\HOCSINHDATA.cs" />
-    <Compile Include="HUONGDAN\HuongDan.cs">
+    <Compile Include="HUONGDAN\frmHuongDan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HUONGDAN\HuongDan.Designer.cs">
-      <DependentUpon>HuongDan.cs</DependentUpon>
+    <Compile Include="HUONGDAN\frmHuongDan.Designer.cs">
+      <DependentUpon>frmHuongDan.cs</DependentUpon>
     </Compile>
-    <Compile Include="LOPDATA\LOP.cs">
+    <Compile Include="LOPDATA\frmLop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LOPDATA\LOP.Designer.cs">
-      <DependentUpon>LOP.cs</DependentUpon>
+    <Compile Include="LOPDATA\frmLop.Designer.cs">
+      <DependentUpon>frmLop.cs</DependentUpon>
     </Compile>
     <Compile Include="LOPDATA\LOPDATA.cs" />
     <Compile Include="Program.cs" />
@@ -85,17 +85,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GIAOVIENDATA\GIAOVIEN.resx">
-      <DependentUpon>GIAOVIEN.cs</DependentUpon>
+    <EmbeddedResource Include="GIAOVIENDATA\frmGiaoVien.resx">
+      <DependentUpon>frmGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HOCSINHDATA\HOCSINH.resx">
-      <DependentUpon>HOCSINH.cs</DependentUpon>
+    <EmbeddedResource Include="HOCSINHDATA\frmHocSinh.resx">
+      <DependentUpon>frmHocSinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HUONGDAN\HuongDan.resx">
-      <DependentUpon>HuongDan.cs</DependentUpon>
+    <EmbeddedResource Include="HUONGDAN\frmHuongDan.resx">
+      <DependentUpon>frmHuongDan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LOPDATA\LOP.resx">
-      <DependentUpon>LOP.cs</DependentUpon>
+    <EmbeddedResource Include="LOPDATA\frmLop.resx">
+      <DependentUpon>frmLop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
