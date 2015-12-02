@@ -19,17 +19,18 @@ namespace QuanLySieuThi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            frmQuanLySieuThi frmQLST = new frmQuanLySieuThi();
-            frmQLST.ShowDialog();
-            this.Close();
-           this.Dispose();
+            frmQuanLySieuThi frm = new frmQuanLySieuThi();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            frmHuongDan frmQLST = new frmHuongDan();
-            frmQLST.ShowDialog();
+            frmHuongDan frm = new frmHuongDan();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
     }
 }
