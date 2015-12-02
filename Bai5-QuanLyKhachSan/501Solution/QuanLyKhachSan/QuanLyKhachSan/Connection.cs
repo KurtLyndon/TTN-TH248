@@ -6,12 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace QuanLyKhachSan
 {
     class Connection
     {
-        private string str = @"Data Source=VKL\SQLEXPRESS;Initial Catalog=QUAN_LY_KHACH_SAN;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
+        private string str = ConfigurationManager.ConnectionStrings["Conn"].ToString();
         private SqlConnection con;
         private SqlDataAdapter da;
         private DataTable table;

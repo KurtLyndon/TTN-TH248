@@ -60,3 +60,4 @@ C:\Users\DELL\Desktop\Bao Cao CN WEB\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\Qua
 E:\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
 E:\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 E:\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+E:\GitHub\TTN-TH248\Bai1-QuanLyNhanSu\101Solution\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmHuongDan.resources

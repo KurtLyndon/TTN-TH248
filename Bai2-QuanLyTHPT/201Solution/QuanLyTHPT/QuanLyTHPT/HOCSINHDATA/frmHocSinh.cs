@@ -23,16 +23,12 @@ namespace QuanLyTHPT.HOCSINHDATA
         private void ADD_LIST()
         {
             HS.Clear();
-
             HS.Add(tbx_ID.Text.Trim());
             HS.Add(tbx_NAME.Text.Trim());
             HS.Add(tbx_CLASSID.Text.Trim());
             HS.Add(tbx_DATE.Text.Trim());
             HS.Add(tbx_SEX.Text.Trim());
             HS.Add(tbx_HOME.Text.Trim());
-            
-            //  sinhvien.InsertSV(SV);
-
         }
         private void LOADHS()
         {
@@ -157,8 +153,6 @@ namespace QuanLyTHPT.HOCSINHDATA
         }
 
     }
-
-            //  sinhvien.InsertSV(SV);
 }
         
 

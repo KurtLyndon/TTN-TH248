@@ -25,7 +25,6 @@ E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUA
 E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.csprojResolveAssemblyReference.cache
 E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.Form1.resources
 E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.Properties.Resources.resources
-E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.QUANLYKHO.resources
 E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.csproj.GenerateResource.Cache
 C:\Users\HitMan\Documents\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\bin\Debug\QUANLYKHOTTN.exe.config
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\bin\Debug\QUANLYKHOTTN.exe.config
@@ -39,3 +38,7 @@ C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanL
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.csproj.GenerateResource.Cache
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.exe
 C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.pdb
+E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\bin\Debug\QUANLYKHOTTN.exe
+E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\bin\Debug\QUANLYKHOTTN.pdb
+E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.frmHuongDan.resources
+E:\GitHub\TTN-TH248\Bai4-QuanLyKho\401Solution\QuanLyKho\QuanLyKho\obj\Debug\QUANLYKHOTTN.frmQuanLyKho.resources
