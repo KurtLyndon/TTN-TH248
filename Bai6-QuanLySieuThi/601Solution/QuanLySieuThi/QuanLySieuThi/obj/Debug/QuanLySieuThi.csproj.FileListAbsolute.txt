@@ -34,3 +34,14 @@ C:\Users\Xuan Truong\Documents\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\Q
 E:\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
 E:\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
 E:\GitHub\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe.config
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.exe
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.pdb
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csprojResolveAssemblyReference.cache
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frm_Start.resources
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmHuongDan.resources
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.Properties.Resources.resources
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.frmQuanLySieuThi.resources
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\obj\Debug\QuanLySieuThi.csproj.GenerateResource.Cache
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.exe
+E:\TTN-TH248\Bai6-QuanLySieuThi\601Solution\QuanLySieuThi\QuanLySieuThi\bin\Debug\QuanLySieuThi.pdb
