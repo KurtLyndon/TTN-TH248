@@ -124,12 +124,11 @@ alter table KHACHHANG add constraint PK_KH primary key(ID_KhachHang)
 alter table NHANVIEN add constraint PK_NV primary key(ID_NhanVien)
 alter table HANGHOA add constraint PK_HH primary key(ID_HangHoa)
 alter table DANGNHAP add constraint PK_DN primary key (Username)
-go
+alter table HOADON add constraint PK_HD primary key (ID_HoaDon)
 alter table CHITIETHOADON add constraint PK_CTHD primary key (ID_HoaDon, ID_HangHoa)
+go
 alter table CHITIETHOADON add	constraint PK_CTHD_HD foreign key (ID_HoaDon) references HOADON (ID_HoaDon)
 alter table CHITIETHOADON add	constraint PK_CTHD_HH foreign key (ID_HangHoa) references HANGHOA (ID_HangHoa)
-go
-alter table HOADON add constraint PK_HD primary key (ID_HoaDon)
 alter table HOADON add	constraint PK_HD_NV foreign key (ID_NhanVien) references NHANVIEN (ID_NhanVien)
 alter table HOADON add	constraint PK_HD_KH foreign key (ID_KhachHang) references KHACHHANG(ID_KhachHang)
 go
