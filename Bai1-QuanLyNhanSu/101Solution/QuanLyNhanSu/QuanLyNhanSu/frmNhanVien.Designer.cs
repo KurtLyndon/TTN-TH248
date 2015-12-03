@@ -68,8 +68,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
 
 
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            //this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            //this.pictureBox2 = new System.Windows.Forms.PictureBox();
 
             this.pn_Nhanvien.SuspendLayout();
             this.panel2.SuspendLayout();

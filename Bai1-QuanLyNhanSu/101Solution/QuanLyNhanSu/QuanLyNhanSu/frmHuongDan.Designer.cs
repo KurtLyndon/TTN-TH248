@@ -55,7 +55,7 @@
             // 
             this.treeView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.treeView1.Location = new System.Drawing.Point(13, 13);
+            this.treeView1.Location = new System.Drawing.Point(15, 15);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "root_GT_GTN";
             treeNode1.Text = "Nhóm Thực Hiện";
@@ -80,7 +80,7 @@
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode3,
             treeNode10});
-            this.treeView1.Size = new System.Drawing.Size(192, 473);
+            this.treeView1.Size = new System.Drawing.Size(223, 540);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -91,23 +91,24 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.webBrowser1.IsWebBrowserContextMenuEnabled = false;
-            this.webBrowser1.Location = new System.Drawing.Point(212, 13);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Location = new System.Drawing.Point(247, 15);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(23, 23);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(843, 473);
+            this.webBrowser1.Size = new System.Drawing.Size(983, 541);
             this.webBrowser1.TabIndex = 1;
             this.webBrowser1.WebBrowserShortcutsEnabled = false;
             // 
             // frmHuongDan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 498);
+            this.ClientSize = new System.Drawing.Size(1245, 569);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.treeView1);
+            this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmHuongDan";
-            this.Text = "Hướng dẫn";
+            this.Text = "Hướng Dẫn";
             this.ResumeLayout(false);
 
         }
