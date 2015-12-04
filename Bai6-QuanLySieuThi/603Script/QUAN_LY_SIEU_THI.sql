@@ -398,3 +398,12 @@ BEGIN
 		SET @CHECK=1 
 	END
 END
+GO
+CREATE proc [dbo].[NANGSUAT]
+as
+BEGIN
+select a.ID_HangHoa,a.TenHangHoa,Sum(b.SoLuong) 'so luong ban'
+from CHITIETHOADON b,HANGHOA a  where a.ID_HangHoa=b.ID_HangHoa  
+group by a.ID_HangHoa,a.TenHangHoa order by [so luong ban] 
+END
+GO
