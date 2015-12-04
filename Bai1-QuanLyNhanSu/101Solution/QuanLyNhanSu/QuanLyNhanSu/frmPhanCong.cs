@@ -202,13 +202,13 @@ namespace QuanLyNhanSu
             if (btnFree.Text == "Add")
             {
                 if (check(1) == false) return;
-                connector.InsertUpdateObject("AddObject", "5", textID.Text, textID2.Text, "", "", "", "", "", "", "", textTime.Text);
+                connector.InsertUpdateObject("AddObject", "5", textID.Text, textID2.Text, "", "", "", "1/1/1994", "", "", "", textTime.Text);
                 MessageBox.Show("Inserting completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 if (check(2) == false) return;
-                connector.InsertUpdateObject("EditObject", "5", textID.Text, textID2.Text, "", "", "", "", "", "", "", textTime.Text);
+                connector.InsertUpdateObject("EditObject", "5", textID.Text, textID2.Text, "", "", "", "1/1/1994", "", "", "", textTime.Text);
                 MessageBox.Show("Updating completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             reset();

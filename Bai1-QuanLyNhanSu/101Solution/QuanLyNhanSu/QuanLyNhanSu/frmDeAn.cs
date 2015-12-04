@@ -101,7 +101,7 @@ namespace QuanLyNhanSu
             int b;
             if (int.TryParse(textTime.Text, out b) == false)
             {
-                MessageBox.Show("This Salary's values is not valid", "O___O", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("This time's values is not valid", "O___O", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 textTime.Focus();
                 return false;
             }
@@ -147,13 +147,13 @@ namespace QuanLyNhanSu
             if (btnFree.Text == "Add")
             {
                 if (check(1) == false) return;
-                connector.InsertUpdateObject("AddObject", "1", textID.Text, textID2.Text, "", textName.Text, textPlace.Text, "", "", "", "", textTime.Text);
+                connector.InsertUpdateObject("AddObject", "3", textID.Text, textID2.Text, "", textName.Text, textPlace.Text, "1/1/1994", "", "", "", textTime.Text);
                 MessageBox.Show("Inserting completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 if (check(2) == false) return;
-                connector.InsertUpdateObject("EditObject", "1", textID.Text, textID2.Text, "", textName.Text, textPlace.Text, "", "", "", "", textTime.Text);
+                connector.InsertUpdateObject("EditObject", "3", textID.Text, textID2.Text, "", textName.Text, textPlace.Text, "1/1/1994", "", "", "", textTime.Text);
                 MessageBox.Show("Updating completed", "^...^", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             reset();
