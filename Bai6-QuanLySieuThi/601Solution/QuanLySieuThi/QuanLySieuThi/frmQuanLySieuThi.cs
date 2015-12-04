@@ -30,6 +30,7 @@ namespace QuanLySieuThi
         DataTable db_KH;
         DataTable db_NV;
         DataTable db_CTHD;
+        DataTable db_NS;
         List<string> list_HH;
             List<string> list_KH;
             List<string> list_HD;
@@ -70,8 +71,21 @@ namespace QuanLySieuThi
             list_HH.Add(tbx_COUT_HH.Text.ToString());
             list_HH.Add(tbx_COST_HH.Text.ToString());
         }
+        private bool CHECK_NUMBER(string s)
+        {
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (char.IsDigit(s[i]) == false)
+                    return false;
+            }
+            return true;
+        }
         private void ADD_LIST_CTHD()
-        { }
+        {
+            list_CTHD.Add(tbx_ID_HD.Text.ToString());
+            list_CTHD.Add(tbx_ID_HHHD.Text.ToString());
+            list_CTHD.Add(tbx_COUTHD.Text.ToString());
+        }
         #region THAOTAC
         private void QUAYLAI()
         {
@@ -132,11 +146,13 @@ namespace QuanLySieuThi
             {
                 panel_CTHD.Enabled = true;
                 panel_HD.Enabled = false;
+                DGV_CTHD.Enabled = true;
             }
             if (sb_HD.Value == false)
             {
                 panel_HD.Enabled = true;
                 panel_CTHD.Enabled = false;
+                DGV_HD.Enabled = true;
             }
         }
         #endregion
@@ -148,6 +164,7 @@ namespace QuanLySieuThi
             NV = new DATA.NHANVIENDATA();
             HD = new DATA.HOADONDATA();
             HH = new DATA.HANGHOADATA();
+            db_NS = new DataTable();
             db_CTHD = new DataTable();
             db_HD = new DataTable();
             db_HH = new DataTable();
@@ -256,21 +273,137 @@ namespace QuanLySieuThi
             QUAYLAI();
         }
 
-        private void DGV_HD_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
 
         private void DGV_HD_DoubleClick(object sender, EventArgs e)
+        {
+            tbx_ID_HD.Text = DGV_HD.SelectedRows[0].Cells[1].Value.ToString();
+            tbx_ID_NVHD.Text = DGV_HD.SelectedRows[0].Cells[2].Value.ToString();
+            tbx_ID_KHHD.Text = DGV_HD.SelectedRows[0].Cells[3].Value.ToString();
+            tbx_DATE_HD.Text = DGV_HD.SelectedRows[0].Cells[4].Value.ToString();
+        }
+
+        private void sb_HD_ValueChanged(object sender, EventArgs e)
+        {
+            VALUE_CHANGE();
+        }
+
+        private void DGV_HH_DoubleClick(object sender, EventArgs e)
+        {
+            tbx_ID_HH.Text = DGV_HH.SelectedRows[0].Cells[1].Value.ToString();
+            tbx_NAME_HH.Text = DGV_HH.SelectedRows[0].Cells[2].Value.ToString();
+            tbx_COUT_HH.Text = DGV_HH.SelectedRows[0].Cells[3].Value.ToString();
+            tbx_COST_HH.Text = DGV_HH.SelectedRows[0].Cells[4].Value.ToString();
+        }
+
+        private void DGV_KH_DoubleClick(object sender, EventArgs e)
+        {
+            tbx_ID_KH.Text = DGV_KH.SelectedRows[0].Cells[1].Value.ToString();
+            tbx_NAME_KH.Text = DGV_KH.SelectedRows[0].Cells[2].Value.ToString();
+            tbx_CMT_KH.Text = DGV_KH.SelectedRows[0].Cells[3].Value.ToString();
+            tbx_PHONE_KH.Text = DGV_KH.SelectedRows[0].Cells[4].Value.ToString();
+            
+        }
+
+        private void DGV_NV_DoubleClick(object sender, EventArgs e)
+        {
+            tbx_ID_NV.Text = DGV_NV.SelectedRows[0].Cells[1].Value.ToString();
+            tbx_NAME_NV.Text = DGV_NV.SelectedRows[0].Cells[2].Value.ToString();
+            tbx_CMT_NV.Text = DGV_NV.SelectedRows[0].Cells[3].Value.ToString();
+            tbx_PHONE_NV.Text = DGV_NV.SelectedRows[0].Cells[4].Value.ToString();
+        }
+
+        private void DGV_HD_Click(object sender, EventArgs e)
         {
             CTHD.SHOW_CTHD(DGV_HD.SelectedRows[0].Cells[1].Value.ToString());
             db_CTHD = CTHD.SHOWDATA();
             DGV_CTHD.DataSource = db_CTHD;
         }
 
-        private void sb_HD_ValueChanged(object sender, EventArgs e)
+        private void DGV_CTHD_DoubleClick(object sender, EventArgs e)
         {
-            VALUE_CHANGE();
+            tbx_ID_HD.Text = DGV_CTHD.SelectedRows[0].Cells[1].Value.ToString();
+            tbx_ID_HHHD.Text = DGV_CTHD.SelectedRows[0].Cells[2].Value.ToString();
+            tbx_COUTHD.Text = DGV_CTHD.SelectedRows[0].Cells[3].Value.ToString();
+        }
+
+        private void buttonX15_Click(object sender, EventArgs e)
+        {
+            if (sb_HD.Value == true)
+            {
+                ADD_LIST_CTHD();
+                CTHD.InsertCTHD(list_CTHD);
+                THEM(db_CTHD, list_CTHD, CTHD.CHECK);
+            }
+            else
+            {
+                ADD_LIST_HD();
+                HD.InsertHD(list_HD);
+                THEM(db_HD, list_HD, HD.CHECK);
+            }
+        }
+
+        private void buttonX14_Click(object sender, EventArgs e)
+        {
+            if (sb_HD.Value == false)
+            {
+                XOA(DGV_HD, ID_DELETE);
+                for (int i = 0; i < ID_DELETE.Count; i++)
+                    HD.DeleteHD(ID_DELETE[i].ToString());
+                ID_DELETE.Clear();
+            }
+            else
+            {
+                XOA(DGV_CTHD, ID_DELETE);
+                for (int i = 0; i < ID_DELETE.Count; i++)
+                    CTHD.DeleteCTHD(ID_DELETE[i].ToString());
+                ID_DELETE.Clear();
+            }
+        }
+
+        private void buttonX13_Click(object sender, EventArgs e)
+        {
+            if (sb_HD.Value == false)
+            {
+                ADD_LIST_HD();
+                HD.UpdateHD(list_HD);
+                SUA(DGV_HD, list_HD, HH.CHECK);
+            }
+            else
+            {
+                ADD_LIST_CTHD();
+                CTHD.UpdateCTHD(list_CTHD);
+                SUA(DGV_CTHD, list_CTHD, HH.CHECK);
+            }
+        }
+
+        
+
+        private void btn_SEARCH_HH_Click(object sender, EventArgs e)
+        {
+            if (btn_SEARCH_HH.Text == "NANG SUAT")
+            {
+                db_NS = HH.NangSuatHH();
+                DGV_HH.DataSource = db_NS;
+                DGV_HH.Enabled = false;
+                btn_FIX_HH.Enabled = false;
+                btn_DELETE_HH.Enabled = false;
+                btn_ADD_HH.Enabled = false;
+                groupPanel3.Enabled = false;
+                btn_SEARCH_HH.Text = "QUAY LAI";
+            }
+            else
+            {
+                DGV_HH.DataSource = db_HH;
+                DGV_HH.Enabled = true;
+                btn_FIX_HH.Enabled = true;
+                btn_DELETE_HH.Enabled = true;
+                btn_ADD_HH.Enabled = true;
+                groupPanel3.Enabled = true;
+                DGV_HH.Enabled = true;
+                btn_SEARCH_HH.Text = "NANG SUAT";
+            }
+           
         }
        
 
