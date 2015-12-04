@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace QuanLySieuThi.DATA
 {
@@ -47,6 +49,22 @@ namespace QuanLySieuThi.DATA
             cmd.ExecuteNonQuery();
             cmd.Dispose();
             con.Close();
+        }
+        public DataTable NangSuatHH()
+        {
+            
+            con = new SqlConnection(cn.getconnect());
+            con.Open();
+            base.sql = "NANGSUAT";
+            //    con.ConnectionString=;
+            SqlDataAdapter sql1 = new SqlDataAdapter(sql, con);
+            sql1.SelectCommand.CommandType = CommandType.StoredProcedure;
+            sql1.SelectCommand.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            sql1.Fill(dt);
+            sql1.Dispose();
+            con.Close();
+            return dt;
         }
     }
 }

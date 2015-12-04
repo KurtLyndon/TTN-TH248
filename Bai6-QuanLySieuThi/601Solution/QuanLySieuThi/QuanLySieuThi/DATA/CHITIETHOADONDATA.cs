@@ -19,8 +19,8 @@ namespace QuanLySieuThi.DATA
         public void GAN_CTHD(List<String> CTHD)
         {
             cmd.Parameters.AddWithValue("@ID", CTHD[0]);
-            cmd.Parameters.AddWithValue("@IDHH", CTHD[1]);
-            cmd.Parameters.AddWithValue("@GIA", CTHD[2]);
+            cmd.Parameters.AddWithValue("@ID_HH", CTHD[1]);
+            cmd.Parameters.AddWithValue("@COUT", CTHD[2]);
            
 
         }
@@ -28,7 +28,7 @@ namespace QuanLySieuThi.DATA
         public void InsertCTHD(List<string> CTHD)
         {
             CHECK = 0;
-            base.sql = "INSERTCTHOADON";
+            base.sql = "INSERTCHITIETHOADON";
             SP_DATA();
             GAN_CTHD(CTHD);
             check();
@@ -37,7 +37,7 @@ namespace QuanLySieuThi.DATA
         public void UpdateCTHD(List<String> CTHD)
         {
             CHECK = 0;
-            base.sql = "UPDATECTHOADON";
+            base.sql = "UPDATECHITIETTHOADON";
             SP_DATA();
             GAN_CTHD(CTHD);
             check();
@@ -45,7 +45,7 @@ namespace QuanLySieuThi.DATA
         }
         public void DeleteCTHD(string ID)
         {
-            base.sql = "DELETECTHOADON";
+            base.sql = "DELETECHITIETHOADON";
             SP_DATA();
             cmd.Parameters.AddWithValue("@ID", ID);
             cmd.ExecuteNonQuery();

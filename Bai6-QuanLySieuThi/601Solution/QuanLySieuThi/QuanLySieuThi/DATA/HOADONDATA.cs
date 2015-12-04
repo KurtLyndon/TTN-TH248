@@ -15,8 +15,8 @@ namespace QuanLySieuThi.DATA
         public void GAN_HD(List<String> HD)
         {
             cmd.Parameters.AddWithValue("@ID", HD[0]);
-            cmd.Parameters.AddWithValue("@IDNV", HD[1]);
-            cmd.Parameters.AddWithValue("@IDHD", HD[2]);
+            cmd.Parameters.AddWithValue("@ID_NV", HD[1]);
+            cmd.Parameters.AddWithValue("@ID_KH", HD[2]);
             DateTime a = Convert.ToDateTime(HD[3]);
             cmd.Parameters.AddWithValue("@DATE", a);
         }
